@@ -7,11 +7,11 @@
 ## 階段目標
 
 1. 熱身：使用上一階段學習的技能，建立 TodoHeader, InputField, TodoList 三個元件，並印出元件名稱
-1. 完成主線任務：
+2. 完成主線任務：
     1. 在 TodoApp 元件中，組合三個元件
     2. 完成 TodoHeader, InputField, TodoList 的細節
     3. 將 TodoItem 抽出成可以重複使用的元件
-2. 修煉內功心法：
+3. 修煉內功心法：
     1. 了解元件設計的好處
     2. 了解該如何切割元件
 
