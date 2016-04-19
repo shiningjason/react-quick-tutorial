@@ -20,4 +20,4 @@
 
 ### 1. 確認 TodoApp 雛形顯示在頁面上
 
-![DEMO](../assets/level-05_demo)
+![DEMO](../assets/level-05_demo.png)
