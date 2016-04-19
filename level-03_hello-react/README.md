@@ -49,7 +49,7 @@
 
 ### 2. 確認 hello, world 顯示在頁面上
 
-![image](../assets/level-03_demo.png)
+![DEMO](../assets/level-03_demo.png)
 
 ## 學習筆記
 
