@@ -8,8 +8,8 @@
 
 1. 完成主線任務：用 JSX 印出 hello, world
 2. 獲得新技能：
-    1. JSX：熟悉基本語法
-    2. ReactDOM.render()：了解 API 使用方法和時機
+  1. JSX：熟悉基本語法
+  2. ReactDOM.render()：了解 API 使用方法和時機
 
 
 ## 主線任務
@@ -62,9 +62,9 @@
 
 // 1. 使用類 HTML 標籤及結構在 JS 中
 const element = (
-    <div>
-        <div>hello, world</div>
-    </div>
+  <div>
+    <div>hello, world</div>
+  </div>
 );
 
 // 2. 在 JSX 中，取得變數值
@@ -73,18 +73,18 @@ const element = <div>{text}</div>;
 
 // 3. 在 JSX 中，取得陣列值
 const children = [
-    <span>hello</span>,
-    <span>, <span>,
-    <span>world<span>
+  <span>hello</span>,
+  <span>, <span>,
+  <span>world<span>
 ];
 const element = <div>{children}</div>;
 
 // 4. 在 JSX 中，執行 function 並取得回傳值
 const texts = ['hello', ', ', 'world'];
 const element = (
-    <div>
-        {texts.map((text) => <span>{text}</span>)}
-    </div>
+  <div>
+    {texts.map((text) => <span>{text}</span>)}
+  </div>
 );
 ```
 
@@ -95,15 +95,15 @@ const element = (
 ```js
 // Good
 ReactDOM.render(
-    <div>hello, world</div>,       // React element
-    document.getElementById('app') // DOM container node
+  <div>hello, world</div>,       // React element
+  document.getElementById('app') // DOM container node
 );
 
 // Bad: 請注意第一個參數（React element）不能給予兩個元素，必須用一個父元素包起來
 ReactDOM.render(
-    <h1>hello</h1>
-    <span>, world</span>,
-    document.getElementById('app')
+  <h1>hello</h1>
+  <span>, world</span>,
+  document.getElementById('app')
 )
 ```
 

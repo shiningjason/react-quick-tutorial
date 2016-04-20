@@ -10,8 +10,8 @@
 > :neckbeard:：少年，我看你天資聰穎，是萬中選一前端神人，React 這個坑你不跳還有誰能跳呢？...
 
 2. 完成主線任務：
-    1. 分析 TodoApp 有哪些功能
-    2. 使用 React 思維，設計 TodoApp
+  1. 分析 TodoApp 有哪些功能
+  2. 使用 React 思維，設計 TodoApp
 
 3. 打通任督二脈：了解 React 的設計思維
 

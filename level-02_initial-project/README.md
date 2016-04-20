@@ -7,8 +7,8 @@
 ## 階段目標
 
 1. 完成以下任務
-    1. 環境建置（Node.js, live-server）
-    2. 初始化 TodoApp 專案
+  1. 環境建置（Node.js, live-server）
+  2. 初始化 TodoApp 專案
 2. 入手一款愛用的編輯器（Sublime Text 3, ATOM, Brackets, etc）
 
 
@@ -20,8 +20,8 @@
 
 1. 簡易懶人法：直接從 [官網](https://nodejs.org/) 中下載
 2. 進階職人法：
-    1. 安裝 [NVM](https://github.com/creationix/nvm)（Node.js 的版本控管工具；如果你使用 Windows，請往 [NVM for Windows](https://github.com/coreybutler/nvm-windows)）
-    2. 使用 NVM 安裝 Node.js（詳見 [NVM](https://github.com/creationix/nvm)）
+  1. 安裝 [NVM](https://github.com/creationix/nvm)（Node.js 的版本控管工具；如果你使用 Windows，請往 [NVM for Windows](https://github.com/coreybutler/nvm-windows)）
+  2. 使用 NVM 安裝 Node.js（詳見 [NVM](https://github.com/creationix/nvm)）
 3. 如果你使用 OSX，又剛好裝有 [Homebrew](http://brew.sh/)：
   1. 使用 `$ brew install nvm` 安裝 NVM，再使用 NVM 下載 Node.js
   2. 使用 `$ brew install node` 直接安裝 Node.js
@@ -57,8 +57,8 @@
 ### 6. 引入第三方 JS 程式
 
 1. 從 cdnjs 中
-    1. 複製 [react.js 和 react-dom.js](https://cdnjs.com/libraries/react) 的連結
-    2. 複製 [babel-core v5.x.x 的 browser.js](https://cdnjs.com/libraries/babel-core/5.8.34) 的連結（***注意：版本請使用 5.x.x***）
+  1. 複製 [react.js 和 react-dom.js](https://cdnjs.com/libraries/react) 的連結
+  2. 複製 [babel-core v5.x.x 的 browser.js](https://cdnjs.com/libraries/babel-core/5.8.34) 的連結（***注意：版本請使用 5.x.x***）
 2. 將上述三個連結嵌入 index.html 中
 
 

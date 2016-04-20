@@ -7,13 +7,13 @@
 ## 階段目標
 
 1. 完成主線任務：
-    1. 讓 TodoItem 元件可以接受參數，並且 TodoList 可以傳遞不同的參數給每一個 TodoItem
-    2. 讓 TodoHeader, InputField 元件可以接受參數，並且 TodoApp 傳遞參數給子元件
+  1. 讓 TodoItem 元件可以接受參數，並且 TodoList 可以傳遞不同的參數給每一個 TodoItem
+  2. 讓 TodoHeader, InputField 元件可以接受參數，並且 TodoApp 傳遞參數給子元件
 2. 獲得新技能：
-    1. ES6 / object rest properties
-    2. ES6 / object spread properties
-    3. React / 傳遞 props 的方式
-    4. React / 接收 props 的方式
+  1. ES6 / object rest properties
+  2. ES6 / object spread properties
+  3. React / 傳遞 props 的方式
+  4. React / 接收 props 的方式
 
 ## 主線任務
 
@@ -29,18 +29,18 @@
 
 ```js
 const user = {
-    firstName: 'Jason',
-    lastName: 'Chung',
-    sex: 'male',
-    age: 27
+  firstName: 'Jason',
+  lastName: 'Chung',
+  sex: 'male',
+  age: 27
 };
 
 // 如果你要取出 sex 和 age，並將它包裝成 others 物件：
 
 // ES5
 var others = {
-    sex: user.sex,
-    age: user.age
+  sex: user.sex,
+  age: user.age
 };
 console.log(others); // { sex: 'male', age: 27 }
 
@@ -57,18 +57,18 @@ console.log(others); // { sex: 'male', age: 27 }
 const firstName = 'Jason';
 const lastName = 'Chung';
 const others = {
-    sex: 'male',
-    age: 27
+  sex: 'male',
+  age: 27
 };
 
 // 如果你要將上面這些值組合成 user 物件：
 
 // ES5
 var user = {
-    firstName: firstName,
-    lastName: lastName,
-    sex: others.sex,
-    age: others.age
+  firstName: firstName,
+  lastName: lastName,
+  sex: others.sex,
+  age: others.age
 };
 
 // ES6
@@ -82,33 +82,33 @@ const user = { firstName, lastName, ...others };
 ```js
 // 1. 使用屬性的方式傳遞 props 給元件
 ReactDOM.render(
-    <TodoApp
-        username="Jason"
-        todos={['Item1', 'Item2']}
-    />,
-    document.getElementById('app')
+  <TodoApp
+    username="Jason"
+    todos={['Item1', 'Item2']}
+  />,
+  document.getElementById('app')
 );
 
 // 2. 使用 object spread properties
 const props = {
-    username: 'Jason',
-    todos: ['Item1', 'Item2']
+  username: 'Jason',
+  todos: ['Item1', 'Item2']
 };
 ReactDOM.render(
-    <TodoApp {...props} />, // 與第一種方式傳遞的參數一樣
-    document.getElementById('app')
+  <TodoApp {...props} />, // 與第一種方式傳遞的參數一樣
+  document.getElementById('app')
 );
 
 // 3. 使用 object rest/spread properties
 const data = {
-    appName: 'TodoApp',
-    username: 'Jason',
-    todos: ['Item1', 'Item2']
+  appName: 'TodoApp',
+  username: 'Jason',
+  todos: ['Item1', 'Item2']
 };
 const { appName, ...props } = data;
 ReactDOM.render(
-    <TodoApp {...props} />, // 與第一種方式傳遞的參數一樣
-    document.getElementById('app')
+  <TodoApp {...props} />, // 與第一種方式傳遞的參數一樣
+  document.getElementById('app')
 );
 ```
 
@@ -131,22 +131,22 @@ class TodoApp extends React.Component {
 }
 
 ReactDOM.render(
-    <TodoApp
-        appName="TodoApp"
-        todos={['Item1', 'Item2']}
-        firstName="Jason"
-        lastName="Chung"
-    />,
-    document.getElementById('app')
+  <TodoApp
+    appName="TodoApp"
+    todos={['Item1', 'Item2']}
+    firstName="Jason"
+    lastName="Chung"
+  />,
+  document.getElementById('app')
 )
 
 // 補充 1. 使用 React.createClass 建立元件，也是從 this.props 中取得
 const TodoApp = React.createClass({
-    render() {
-        const { appName, todos, ...rest } = this.props;
-        return <div></div>;
-    }
-})
+  render() {
+    const { appName, todos, ...rest } = this.props;
+    return <div></div>;
+  }
+});
 
 // 補充 2. 使用 function 建立元件，是從 function 參數中取得 props
 const TodoApp = (props) => <div></div>;

@@ -8,10 +8,10 @@
 
 1. 完成主線任務：完成第一個元件 TodoApp
 2. 獲得新技能：
-    1. ES6 / let & const
-    2. ES6 / classes
-    3. ES6 / destructuring
-    4. React / 建立元件的三種方法
+  1. ES6 / let & const
+  2. ES6 / classes
+  3. ES6 / destructuring
+  4. React / 建立元件的三種方法
 
 
 ## 主線任務
@@ -21,12 +21,12 @@
 ```js
 // 1. 新增一個繼承 React.Component 的子類別
 class TodoApp extends React.Component {
-    // 2. 必須實作 render 方法：
-    //    React 透過該方法回傳的元素，
-    //    知道要怎麼渲染該元件在頁面上
-    render() {
-        return <div>TodoApp</div>;
-    }
+  // 2. 必須實作 render 方法：
+  //    React 透過該方法回傳的元素，
+  //    知道要怎麼渲染該元件在頁面上
+  render() {
+    return <div>TodoApp</div>;
+  }
 }
 
 // 3. 將 TodoApp 定義在 window.App 下，讓其他 JS 可以使用該元件
@@ -37,18 +37,18 @@ window.App.TodoApp = TodoApp;
 
 ```html
 <body>
-    <!-- 1. 初始化 window.App -->
-    <script>window.App = {}</script>
-    <!-- 2. 引入 TodoApp.js -->
-    <script type="text/babel" src="./TodoApp.js"></script>
-    <script type="text/babel">
-        // 3. 從 window.App 中，取出 TodoApp 元件
-        const { TodoApp } = window.App;
-        ReactDOM.render(
-            <TodoApp />, // 4. 將 TodoApp 元件渲染在 container 中
-            document.getElementById('app')
-        );
-    </script>
+  <!-- 1. 初始化 window.App -->
+  <script>window.App = {}</script>
+  <!-- 2. 引入 TodoApp.js -->
+  <script type="text/babel" src="./TodoApp.js"></script>
+  <script type="text/babel">
+    // 3. 從 window.App 中，取出 TodoApp 元件
+    const { TodoApp } = window.App;
+    ReactDOM.render(
+        <TodoApp />, // 4. 將 TodoApp 元件渲染在 container 中
+        document.getElementById('app')
+    );
+  </script>
 </body>
 ```
 
@@ -86,7 +86,7 @@ TEXT = 'world'; // 錯誤訊息：Uncaught SyntaxError: "TEXT" is read-only
 
 ```js
 class TodoApp extends React.Component {
-    // ...
+  // ...
 }
 ```
 
@@ -96,8 +96,8 @@ class TodoApp extends React.Component {
 
 ```js
 const state = {
-    value1: 'value1',
-    value2: 'value2'
+  value1: 'value1',
+  value2: 'value2'
 };
 
 // ES5 取得 value1 和 value2 的方法
@@ -117,16 +117,16 @@ console.log(value1 + value2);
 ```js
 // 第一種. 使用 ES6 classes
 class TodoApp extends React.Component {
-    render() {
-        return <div>TodoApp</div>;
-    }
+  render() {
+    return <div>TodoApp</div>;
+  }
 }
 
 // 第二種. 使用 React.createClass API，通常用在 ES5 語法中
 const TodoApp = React.createClass({
-    render() {
-        return <div>TodoApp</div>;
-    }
+  render() {
+    return <div>TodoApp</div>;
+  }
 });
 
 // 第三種. 使用 function，通常用在元件只需要定義 render 方法時
