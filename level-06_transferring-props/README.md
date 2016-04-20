@@ -119,6 +119,7 @@ ReactDOM.render(
 ```js
 // 上層元件傳遞的屬性都可以從 this.props 中取得
 class TodoApp extends React.Component {
+  render() {
     const { appName, todos, ...rest } = this.props;
 
     console.log(appName); // "TodoApp"
@@ -126,6 +127,7 @@ class TodoApp extends React.Component {
     console.log(rest);    // { firstName: 'Jason', lastName: 'Chung' }
 
     return <div></div>;
+  }
 }
 
 ReactDOM.render(
@@ -137,4 +139,18 @@ ReactDOM.render(
     />,
     document.getElementById('app')
 )
+
+// 補充 1. 使用 React.createClass 建立元件，也是從 this.props 中取得
+const TodoApp = React.createClass({
+    render() {
+        const { appName, todos, ...rest } = this.props;
+        return <div></div>;
+    }
+})
+
+// 補充 2. 使用 function 建立元件，是從 function 參數中取得 props
+const TodoApp = (props) => <div></div>;
+
+// 或是可以透過 destructuring 的方式取得 props 中的值
+const TodoApp = ({ appName, todos }) => <div></div>;
 ```
