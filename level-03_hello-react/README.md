@@ -52,7 +52,7 @@
 
 ![DEMO](../assets/level-03_demo.png)
 
-## 學習筆記
+## :green_book: 學習筆記
 
 ### [React] JSX 語法
 
