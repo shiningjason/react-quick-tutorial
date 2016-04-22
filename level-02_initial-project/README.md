@@ -4,29 +4,41 @@
 > :bowtie:：Wish you have a happy learning!
 
 
-## 階段目標
+## 關卡目標
 
-1. 完成以下任務
-  1. 環境建置（Node.js, live-server）
-  2. 初始化 TodoApp 專案
-2. 入手一款愛用的編輯器（Sublime Text 3, ATOM, Brackets, etc）
+1. 選擇一款愛用的編輯器
+2. 完成主線任務：環境建置、專案初始化
+
+
+## 選擇編輯器
+
+前端工程師常用的編輯器有：
+
+1. [Vim](http://www.vim.org/)
+2. [Sublime Text 3](https://www.sublimetext.com/3)
+3. [ATOM](https://atom.io/)
+4. [Brackets](http://brackets.io/)
+
+選哪一款其實都無所謂，***只要第一眼順眼，往後用起來習慣即可***！
+
+> :bowtie:：所謂「工欲善其事，必先利其器」，我用的是 Sublime Text 3！＾＾
 
 
 ## 主線任務
 
 ### 1. 安裝 Node.js
 
-下面列出三種安裝方法，選一個適合你的吧：
+下方列出三種安裝方法，挑一個適合你的吧：
 
 1. 簡易懶人法：直接從 [官網](https://nodejs.org/) 中下載
 2. 進階職人法：
-  1. 安裝 [NVM](https://github.com/creationix/nvm)（Node.js 的版本控管工具；如果你使用 Windows，請往 [NVM for Windows](https://github.com/coreybutler/nvm-windows)）
-  2. 使用 NVM 安裝 Node.js（詳見 [NVM](https://github.com/creationix/nvm)）
-3. 如果你使用 OSX，又剛好裝有 [Homebrew](http://brew.sh/)：
+  1. 安裝 [NVM](https://github.com/creationix/nvm)（Node.js 的版本控管工具；如果你使用 Windows，請至 [NVM for Windows](https://github.com/coreybutler/nvm-windows)）
+  2. 使用 NVM 安裝 Node.js（安裝指令請見 [NVM 文件](https://github.com/creationix/nvm#usage)）
+3. OSX 用戶，又剛好裝有 [Homebrew](http://brew.sh/)：
   1. 使用 `$ brew install nvm` 安裝 NVM，再使用 NVM 下載 Node.js
   2. 使用 `$ brew install node` 直接安裝 Node.js
 
-> :bowtie:：偷偷跟你講，我使用的方法是第二種：）
+> :bowtie:：偷偷跟你講，我選擇的是第二種！：）
 
 ### 2. 建立專案目錄
 
@@ -36,11 +48,9 @@
 ### 3. 建立 index.html
 
 1. 在專案目錄中，建立 index.html
-2. 使用常用編輯器，打開專案目錄
+2. 使用編輯器，打開專案目錄
 3. 在 index.html 中，完成空的 HTML5 結構
 4. 在 body 中，加入 `<div>hello, world</div>`，讓頁面顯示 hello, world
-
-> :bowtie:：我使用的編輯器唷？我用 [Sublime Text 3](https://www.sublimetext.com/3)！
 
 ### 4. 安裝 [live-server](https://github.com/tapio/live-server)
 
