@@ -4,19 +4,19 @@
 > :bowtie:：Wish you have a happy learning!
 
 
-## 階段目標
+## 關卡目標
 
 1. 完成主線任務：用 JSX 印出 hello, world
 2. 獲得新技能：
-  1. JSX：熟悉基本語法
-  2. ReactDOM.render()：了解 API 使用方法和時機
+  1. [React] 熟悉 JSX 語法
+  2. [React] 了解 ReactDOM.render() 使用方法和時機
 
 
 ## 主線任務
 
 ### 1. 編輯 index.html
 
-根據下方步驟，step by step 完成 index.html。
+根據下方步驟，step by step 完成 index.html：
 
 ```html
 <body>
@@ -31,10 +31,11 @@
 
   <!--
     2. 加入 script，並指定 `type=text/babel`：
-       這區塊是我們編寫主要程式的地方，
-       因為我們用的是 JSX 語法，而非瀏覽器認識的 ES5 語法；
-       所以需要指定 type 屬性，讓瀏覽器將這段程式轉交 Babel 接手，
-       Babel 會將 JSX/ES6/ES7 翻譯成瀏覽器可以執行的 ES5
+       這區塊是我們編寫主要程式的地方。
+
+       因為我們用的是 JSX 語法，而非瀏覽器認識的 ES5 語法，
+       透過 Babel 可以將 JSX/ES6/ES7 轉譯成 ES5；
+       所以需要指定 type，讓瀏覽器先將這段程式轉交給 Babel 處理
   -->
   <script type="text/babel">
     // 3. 使用 ReactDOM.render()：
@@ -53,44 +54,55 @@
 
 ## 學習筆記
 
-### JSX
+### [React] JSX 語法
 
-- 語法使用方式（詳見 [官方文件](https://facebook.github.io/react/docs/jsx-in-depth.html)）：
+#### 1. 使用方式（詳見 [JSX in Depth](https://facebook.github.io/react/docs/jsx-in-depth.html)）
 
 ```js
-// 下面四種方法，element 會顯示一樣的畫面：
-
-// 1. 使用類 HTML 標籤及結構在 JS 中
-const element = (
+// 1. JSX 讓你可以在 JS 中，使用類 HTML 語法
+var app = (
   <div>
     <div>hello, world</div>
   </div>
 );
 
-// 2. 在 JSX 中，取得變數值
-const text = 'hello, world';
-const element = <div>{text}</div>;
+// 2. JSX 讓你可以在類 HTML 中，取得 JS 變數值
+var text = 'hello, world';
+var app = <div>{text}</div>;
 
-// 3. 在 JSX 中，取得陣列值
-const children = [
+// 3. JSX 讓你可以在類 HTML 中，取得 JS 陣列值
+var children = [
   <span>hello</span>,
   <span>, <span>,
   <span>world<span>
 ];
-const element = <div>{children}</div>;
+var app = <div>{children}</div>;
 
-// 4. 在 JSX 中，執行 function 並取得回傳值
-const texts = ['hello', ', ', 'world'];
-const element = (
+
+// 4. JSX 讓你可以在類 HTML 中，執行 JS function，並取得回傳值
+var texts = ['hello', ', ', 'world'];
+var app = (
   <div>
-    {texts.map((text) => <span>{text}</span>)}
+    {
+      texts.map(function(text) {
+        return <span>{text}</span>;
+      }) // 注意：這裡不要加分號（;）
+    }
   </div>
 );
+
+// 5. JSX 讓你可以在類 HTML 中，執行 if/else 和字串組合
+var text = 'world';
+var app = (
+  <div>{ text === undefined ? 'hello' : 'hello, ' + text }</div>
+);
+
+// PS. 上面五種方法，app 在瀏覽器中會顯示一樣的畫面
 ```
 
-### ReactDOM.render()
+### [React] ReactDOM.render() API
 
-- 使用方式（詳見 [官方文件](https://facebook.github.io/react/docs/top-level-api.html#reactdom.render)）：
+#### 1. 使用方式（詳見 [API 文件](https://facebook.github.io/react/docs/top-level-api.html#reactdom.render)）
 
 ```js
 // Good
@@ -107,4 +119,6 @@ ReactDOM.render(
 )
 ```
 
-- 說文解字：render 中文為「渲染」，有繪製的意思；因此這支 API 翻成白話文就是「***請幫我繪製 React element (`<div>hello, world</div>`) 在 DOM container node (`document.getElementById('app')`) 中***」
+#### 2. 說文解字
+
+render 中文為「渲染」，有繪製的意思；因此這支 API 翻成白話文就是「***請幫我繪製 React element (`<div>hello, world</div>`) 在 DOM container node (`document.getElementById('app')`) 中***」
