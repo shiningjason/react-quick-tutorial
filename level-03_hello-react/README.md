@@ -78,7 +78,6 @@ var children = [
 ];
 var app = <div>{children}</div>;
 
-
 // 4. JSX 讓你可以在類 HTML 中，執行 JS function，並取得回傳值
 var texts = ['hello', ', ', 'world'];
 var app = (
