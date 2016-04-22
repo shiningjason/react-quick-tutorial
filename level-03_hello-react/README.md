@@ -56,7 +56,7 @@
 
 ### [React] JSX 語法
 
-##### 1. 使用方式（詳見 [JSX in Depth](https://facebook.github.io/react/docs/jsx-in-depth.html)）
+###### 1. 使用方式（詳見 [JSX in Depth](https://facebook.github.io/react/docs/jsx-in-depth.html)）
 
 ```js
 // 1. JSX 讓你可以在 JS 中，使用類 HTML 語法
@@ -102,7 +102,7 @@ var app = (
 
 ### [React] ReactDOM.render() API
 
-##### 1. 使用方式（詳見 [API 文件](https://facebook.github.io/react/docs/top-level-api.html#reactdom.render)）
+###### 1. 使用方式（詳見 [API 文件](https://facebook.github.io/react/docs/top-level-api.html#reactdom.render)）
 
 ```js
 // Good
@@ -119,6 +119,6 @@ ReactDOM.render(
 )
 ```
 
-##### 2. 說文解字
+###### 2. 說文解字
 
 render 中文為「渲染」，有繪製的意思；因此這支 API 翻成白話文就是「***請幫我繪製 React element (`<div>hello, world</div>`) 在 DOM container node (`document.getElementById('app')`) 中***」
