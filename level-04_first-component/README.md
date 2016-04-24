@@ -109,7 +109,7 @@ if (true) {
 console.log(text); // 發生錯誤：Uncaught ReferenceError: text is not defined
 ```
 
-> :bowtie:：小提醒，為了增加程式閱讀性和降低出錯率，建議你培養好習慣，***宣告變數盡量使用 let 取代 var，常數用 const***：）
+> :bowtie:：小提醒，為了增加程式閱讀性和降低出錯率，建議你培養好習慣 - ***宣告變數盡量使用 let 取代 var，常數用 const***：）
 
 ###### 2. 參考連結
 1. [Let + Const | Babel](https://babeljs.io/docs/learn-es2015/#let-const)
@@ -170,7 +170,7 @@ const { value1, value2 } = state;
 console.log(value1 + value2);
 ```
 
-> :bowtie:：當我剛開始看到「解構賦值」時，也覺得真的是太 magic 了；解構賦值也包括從陣列中取值，或是忽略某一個值等，詳細用法我建議你閱讀下方的參考連結囉～！
+> :bowtie:：當我剛開始看到「解構賦值」時，也覺得真的是太 cool 了；解構賦值也包括從陣列中取值，或是忽略某一個值等，詳細用法我建議你閱讀下方的參考連結囉～！
 
 ###### 2. 參考連結
 1. [Destructuring | Babel](https://babeljs.io/docs/learn-es2015/#destructuring)
@@ -194,7 +194,9 @@ const TodoApp = React.createClass({
 });
 
 // 第三種. 使用 function，通常用在元件只需要定義 render 方法時
-const TodoApp = () => <div>TodoApp</div>;
+const TodoApp = function() {
+  return <div>TodoApp</div>;
+};
 ```
 
 > :bowtie:：謹記「***元件可以是 class，也可以是 function***」！
