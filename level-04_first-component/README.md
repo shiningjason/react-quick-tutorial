@@ -64,20 +64,23 @@ window.App.TodoApp = TodoApp;
 ###### 1. 使用方法
 
 ```js
-// 在 ES5 中，你使用 var 宣告變數
+// 在 ES5 中，你使用 var 宣告變數，且可以賦予新值：
 var text = 'hello';
 text = 'world';
 
-// ES6 提供你
-// 1. 使用 let 宣告**區域變數**
-// 2. 使用 const 宣告**常數**
+// 而 ES6 提供你兩個新功能：
+// 1. 使用 let 宣告「區域變數」
+// 2. 使用 const 宣告「常數」
+// 範例如下：
 let text = 'hello';
 const TEXT = 'hello';
 
 text = 'world';
-TEXT = 'world'; // 錯誤訊息：Uncaught SyntaxError: "TEXT" is read-only
+TEXT = 'world'; // 發生錯誤：Uncaught SyntaxError: "TEXT" is read-only
+                // 因為 const 一旦宣告後，就無法重新賦值，通常用在宣告常數
 
 // 那麼 let 和 var 的差別是什麼呢？
+// 見下方範例：
 var vText = 'vText';
 let lText = 'lText';
 
@@ -93,12 +96,15 @@ console.log(vText); // vText2
 console.log(lText); // lText
 
 // It's magic!
-// 在 if 區塊中使用 let 宣告的變數，只限在 if 區塊內使用；
-// 而 var 卻無限制，這就是 let 和 var 的差別
+// 上例讓我們得知：
+// 在 if 區塊中使用 let 宣告的變數，只能在 if 區塊內使用；
+// 而 var 卻無限制，這就是 let 和 var 的差別。
+
+// 再看一個例子：
 if (true) {
   let text = 'hello';
 }
-console.log(text); // 錯誤訊息：Uncaught ReferenceError: text is not defined
+console.log(text); // 發生錯誤：Uncaught ReferenceError: text is not defined
 ```
 
 > :bowtie:：小提醒，為了增加程式閱讀性和降低出錯率，建議你培養好習慣，***宣告變數盡量使用 let 取代 var，常數用 const***：）
