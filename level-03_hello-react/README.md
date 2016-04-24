@@ -4,7 +4,7 @@
 > :bowtie:：Wish you have a happy learning!
 
 
-## 關卡目標
+## :checkered_flag: 關卡目標
 
 1. 完成主線任務：用 JSX 印出 hello, world
 2. 獲得新技能：
@@ -12,7 +12,7 @@
   2. [React] 了解 ReactDOM.render() 使用方法和時機
 
 
-## 主線任務
+## :triangular_flag_on_post: 主線任務
 
 ### 1. 編輯 index.html
 
@@ -52,7 +52,7 @@
 
 ![DEMO](../assets/level-03_demo.png)
 
-## :memo: 學習筆記
+## :book: 學習筆記
 
 ### [React] JSX 語法
 
@@ -121,3 +121,8 @@ ReactDOM.render(
 ###### 2. 說文解字
 
 render 中文為「渲染」，有繪製的意思；因此這支 API 翻成白話文就是「***請幫我繪製 React element (`<div>hello, world</div>`) 在 DOM container node (`document.getElementById('app')`) 中***」
+
+
+## :rocket:
+
+｜ [主頁](../) ｜ [上一關](../level-02_initial-project) ｜ [下一關. 使用 JSX 印出 hello, world](../level-04_first-component) ｜
