@@ -41,4 +41,4 @@
 
 ## :rocket:
 
-|  [主頁](../)  |  [下一關. 建置簡易的開發環境](../level-02_initial-project)  |
+｜ [主頁](../) ｜ [下一關. 建置簡易的開發環境](../level-02_initial-project) ｜
