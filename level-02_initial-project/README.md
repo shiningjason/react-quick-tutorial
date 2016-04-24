@@ -4,13 +4,13 @@
 > :bowtie:：Wish you have a happy learning!
 
 
-## 關卡目標
+## :checkered_flag: 關卡目標
 
 1. 選擇一款愛用的編輯器
 2. 完成主線任務：環境建置、專案初始化
 
 
-## 選擇編輯器
+## :triangular_flag_on_post: 選擇編輯器
 
 前端工程師常用的編輯器有：
 
@@ -18,13 +18,14 @@
 2. [Sublime Text 3](https://www.sublimetext.com/3)
 3. [ATOM](https://atom.io/)
 4. [Brackets](http://brackets.io/)
+5. [Nuclide](http://nuclide.io/)
 
 選哪一款其實都無所謂，***只要第一眼順眼，往後用起來習慣即可***！
 
 > :bowtie:：所謂「工欲善其事，必先利其器」，我用的是 Sublime Text 3！＾＾
 
 
-## 主線任務
+## :triangular_flag_on_post: 主線任務
 
 ### 1. 安裝 Node.js
 
@@ -72,7 +73,7 @@
 2. 將上述三個連結嵌入 index.html 中
 
 
-## FAQ
+## :beers: FAQ
 
 ### 1. 為什麼要安裝 live-server？
 
@@ -95,3 +96,8 @@ React Native) 中。
 browser.js 是 [Babel](https://babeljs.io) 的程式庫，而 Babel 是一個 JS 編譯器，讓你可以寫新的 ES6/ES7/JSX 語法，然後轉譯成瀏覽器認識的 ES5 語法。
 
 簡單講，Babel 就像是「***翻譯蒟蒻***」，而 browser.js 讓你可以在瀏覽器中進行這項翻譯的工作。
+
+
+## :rocket:
+
+｜ [主頁](../) ｜ [上一關](../level-01_react) ｜ [下一關. 使用 JSX 印出 hello, world](../level-03_hello-react) ｜
