@@ -6,10 +6,10 @@
 
 ## :checkered_flag: 關卡目標
 
-1. 完成主線任務：完成所有元件（TodoHeader, InputField, TodoList, TodoItem）雛形，並將它們與主元件（TodoApp）組合起來
+1. 完成主線任務：完成所有元件雛形，並將它們組合起來
 2. 習得心法：
-  1. 理解元件組合的好處
-  2. 體會封裝元件的時機
+  1. 了解元件組合的思維
+  2. 清楚元件封裝的時機
 
 
 ## :triangular_flag_on_post: 主線任務
