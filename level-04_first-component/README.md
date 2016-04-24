@@ -71,15 +71,17 @@ text = 'world';
 // 而 ES6 提供你兩個新功能：
 // 1. 使用 let 宣告「區域變數」
 // 2. 使用 const 宣告「常數」
+
 // 範例如下：
 let text = 'hello';
 const TEXT = 'hello';
 
 text = 'world';
 TEXT = 'world'; // 發生錯誤：Uncaught SyntaxError: "TEXT" is read-only
-                // 因為 const 一旦宣告後，就無法重新賦值，通常用在宣告常數
 
-// 那麼 let 和 var 的差別是什麼呢？
+// 上例中，因為 const 一旦宣告後，就無法重新賦值，所以發生錯誤。
+// 因此 cosnt 通常用在宣告常數，那麼 let 和 var 的差別是什麼呢？
+
 // 見下方範例：
 var vText = 'vText';
 let lText = 'lText';
