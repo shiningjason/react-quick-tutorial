@@ -37,8 +37,8 @@
 
 ![TodoApp components](../assets/todoapp-components.png)
 
-> :bowtie:：在這一階段我們必須盡可能得讓元件可以重複利用；思考邏輯是這樣的 - 因為 TodoList 中每一行待辦項目的 UI 都是相同的，僅顯示的資料不一樣，所以我們將待辦項目拉成一個 TodoItem 元件。
+> :bowtie:：在這一階段我們必須盡可能得讓元件可以**重複利用**；思考邏輯是這樣的 - 因為 TodoList 中每一行待辦項目的 UI 都是相同的，僅顯示的資料不一樣，所以我們將待辦項目拉成一個 TodoItem 元件。
 
 ## :rocket:
 
-[回到主頁](../) | [下一關](../level-02_initial-project)
+[主頁](../) | [下一關. 建置簡易的開發環境](../level-02_initial-project)
