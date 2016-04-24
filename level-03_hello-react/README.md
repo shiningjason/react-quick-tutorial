@@ -125,4 +125,4 @@ render 中文為「渲染」，有繪製的意思；因此這支 API 翻成白�
 
 ## :rocket:
 
-｜ [主頁](../) ｜ [上一關](../level-02_initial-project) ｜ [下一關. 使用 JSX 印出 hello, world](../level-04_first-component) ｜
+｜ [主頁](../) ｜ [上一關](../level-02_initial-project) ｜ [下一關. 完成第一個 React 元件](../level-04_first-component) ｜
