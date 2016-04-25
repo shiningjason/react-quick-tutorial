@@ -54,7 +54,7 @@
 
 ## :book: 學習筆記
 
-### [React] JSX 語法
+### 1. [React] JSX 語法
 
 ###### 1. 使用方式（詳見 [JSX in Depth](https://facebook.github.io/react/docs/jsx-in-depth.html)）
 
@@ -99,7 +99,7 @@ var app = (
 // PS. 上面五種方法，app 在瀏覽器中會顯示一樣的畫面
 ```
 
-### [React] ReactDOM.render() API
+### 2. [React] ReactDOM.render() API
 
 ###### 1. 使用方式（詳見 [API 文件](https://facebook.github.io/react/docs/top-level-api.html#reactdom.render)）
 
