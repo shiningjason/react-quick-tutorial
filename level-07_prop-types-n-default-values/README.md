@@ -102,7 +102,7 @@ TodoHeader.defaultProps = {
 
 ### 3. 查看驗證失敗的警示訊息
 
-當你替 TodoHeader 加上防呆機制後，如果你將一個字串給予 todoCount 的話：
+當你替 TodoHeader 加上防呆機制後，如果你將字串遞給 todoCount 的話：
 
 ```js
 <TodoHeader todoCount="99" />
