@@ -108,7 +108,7 @@ render() {
 ###### 1. 使用方法
 
 ```js
-// 1. 使用屬性的方式傳遞 props 給元件
+// 1. 使用元素屬性，傳遞 props 給元件
 ReactDOM.render(
   <TodoApp
     username="Jason"
