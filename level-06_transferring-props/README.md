@@ -43,7 +43,7 @@ render() {
 /** TodoList.js */
 
 render() {
-  // 傳遞參數的方式，就如同定義 HTML 元素的屬性一樣；
+  // 傳遞參數的方式，就如同定義 HTML 元素的屬性；
   // 將 title 和 completed 依據你的喜好給予 TodoItem
   return (
     <ul>
