@@ -8,22 +8,22 @@
 
 1. 完成主線任務：設計元件的防呆機制
 2. 獲得新技能：
-  1. [React] 元件參數 (props) 的驗證方法
-  2. [React] 元件參數 (props) 的預設值
+  1. [React] 驗證元件參數 (props) 的方法
+  2. [React] 定義元件參數 (props) 的預設值
 3. 習得心法：
-  1. 體會設計元件防呆機制的好處
-  2. 理解 propTypes 和 defaultProps 的使用時機
+  1. 體會設計防呆機制的好處
+  2. 理解防呆機制的使用時機
 
 
 ## :triangular_flag_on_post: 主線任務
 
 ### 1. 先了解問題
 
-在上個關卡中，不知你是否有看過以下的畫面：
+在上個關卡中，你或會看過以下的畫面：
 
 ![DEMO](../assets/level-07_demo-1.png)
 
-你是否發現了？待辦清單的標題和使用者名稱消失了！如果你細查程式碼，那大概是下面這裡出錯了：
+發現了嗎？待辦清單的**標題**和**使用者名稱**消失了！如果你細查程式碼：
 
 ```js
 /** TodoApp.js */
@@ -41,14 +41,14 @@ render() {
 }
 ```
 
-在現實世界中，這種開發經驗會很常出現，因為一不小心就讓你的客戶看到不正確的 UI，而且你也有可能會花很多時間、看了很多支程式後才找到問題所在！
+在現實世界中，這種小迷糊很常出現；因此讓客戶看到了不正確的 UI，而且你也會花很多時間、瀏覽很多支程式後才找到問題所在！
 
 再讓我舉個例子：
 
 ```js
 /** TodoHeader.js */
 
-// 假使我們預期要顯示待辦數量加一，例如：todoCount 等於 99 時，應該要顯示 100
+// 假使我們預期的是「顯示待辦數量加一」，例如：todoCount 等於 99 時，畫面顯示 100
 render {
   return <div>{this.props.todoCount + 1}</div>;
 }
@@ -64,12 +64,12 @@ render {
   );
 }
 
-// 你知道最後畫面會顯示什麼嗎？
+// 那麼，你知道最後畫面會顯示什麼嗎？
 // 100
 // 991
 ```
 
-一不小心出錯，可是會命運大不同呀！在一個龐大的專案中，***你要如何讓你設計的元件正確的被其他開發者使用***，這就是我們這一關要解決的！
+> :bowtie:：一不小心出錯，命運可是會大不同呀！所以在龐大的專案中，「***要如何讓自己設計的元件，正確的被其他開發者使用呢***」就是我們這一關要解決的！
 
 
 ### 2. 設計元件的防呆機制
@@ -98,26 +98,26 @@ TodoHeader.defaultProps = {
 };
 ```
 
-所以這一步，我們要完成 TodoHeader 和 TodoItem 的防呆機制！
+這一步，我們要依樣畫葫蘆完成 **TodoHeader** 和 **TodoItem** 的防呆機制！
 
 ### 3. 查看驗證失敗的警示訊息
 
-當你替 TodoHeader 加上防呆機制後，如果你將 todoCount 給成一個字串：
+當你替 TodoHeader 加上防呆機制後，如果你將一個字串給予 todoCount 的話：
 
 ```js
 <TodoHeader todoCount="99" />
 ```
 
-打開瀏覽器的開發者工具，你應該會看到如下的警示訊息：
+打開瀏覽器的開發者工具，你應該會看到如下的警告：
 
 ![DEMO](../assets/level-07_demo-2.png)
 
-加入元件參數的驗證機制，並不會讓整個應用程式停止運作，不過它會讓開發者得知自己是否遺漏了什麼；而一位前端工程師通常會隨時地查看開發者工具，因此達到防呆的效果。
+> :bowtie:：加入元件參數的驗證機制，並不會讓整個應用程式停止運作，不過它會讓開發者得知自己是否遺漏了什麼；而一位前端工程師通常會隨時地查看開發者工具，因此達到防呆的效果。
 
 
 ## :book: 學習筆記
 
-### 1. [React] 元件參數 (props) 的驗證方法
+### 1. [React] 驗證元件參數 (props) 的方法
 
 ###### 1. 使用方法
 
@@ -154,7 +154,7 @@ const TodoApp = React.createClass({
 
 1. [Prop Validation | React](https://facebook.github.io/react/docs/reusable-components.html#prop-validation)
 
-### 2. [React] 元件參數 (props) 的預設值
+### 2. [React] 定義元件參數 (props) 的預設值
 
 ###### 1. 使用方法
 
@@ -191,13 +191,13 @@ const TodoApp = React.createClass({
 
 ###### 2. 參考連結
 
-1. [Default Prop Values | React](https://facebook.github.io/react/docs/reusable-components.html#default-prop-values)）：
+1. [Default Prop Values | React](https://facebook.github.io/react/docs/reusable-components.html#default-prop-values)
 
 
 ### 3. [React] 心法
 
-1. 設計元件的防呆機制，可以減少錯誤的機率，提高元件的重用性
-2. 設計元件的防呆機制，可以讓開發者更容易的得知元件參數有哪些
+1. 設計元件的防呆機制，可以減少錯誤機率，提高元件重用性
+2. 設計元件的防呆機制，可以讓開發者更輕易得知元件參數有哪些
 
 
 ## :rocket:
