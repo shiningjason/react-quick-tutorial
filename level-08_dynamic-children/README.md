@@ -75,7 +75,7 @@ class TodoList extends React.Component {
   }
 }
 
-// 3. 完成 TodoList 的防呆機制 (propTypes, defaultProps)：
+// 3. 完成 TodoList 的防呆機制 (propTypes, defaultProps)
 //    略（請根據上個關卡所學的技能進行設計）
 
 /** TodoApp.js */
@@ -182,7 +182,7 @@ console.log(outputs); // [2, 8]
 
 ###### 1. 使用方法
 
-```
+```js
 // ES5 中，定義匿名函數，及將函數賦值給變數的方法
 var plus = function(x) {
   return x + 1;
