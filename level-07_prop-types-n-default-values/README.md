@@ -108,7 +108,7 @@ TodoHeader.defaultProps = {
 <TodoHeader todoCount="99" />
 ```
 
-打開瀏覽器的開發者工具，你應該會看到如下的警告：
+打開瀏覽器的開發者工具，你會看到如下的警告：
 
 ![DEMO](../assets/level-07_demo-2.png)
 
