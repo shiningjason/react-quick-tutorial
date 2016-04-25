@@ -112,7 +112,7 @@ TodoHeader.defaultProps = {
 
 ![DEMO](../assets/level-07_demo-2.png)
 
-> :bowtie:：加入元件參數的驗證機制，並不會讓整個應用程式停止運作，不過它會讓開發者得知自己是否遺漏了什麼；而一位前端工程師通常會隨時地查看開發者工具，因此達到防呆的效果。
+> :bowtie:：加入元件參數的驗證機制，並不會讓整個應用程式停止運作，不過***它會讓開發者得知自己是否遺漏了什麼***；而一位前端工程師通常會隨時地查看開發者工具，因此達到防呆的效果。
 
 
 ## :book: 學習筆記
@@ -131,7 +131,7 @@ TodoApp.propTypes = {
   appName: React.PropTypes.string.isRequired // 更多 Validation 和客製化方法，請見官方文件
 };
 
-// 2. 在 ES7 中，你可以在類別中使用 static
+// 2. 在 ES7 中，你可以在類別中使用 static 宣告 propTypes
 class TodoApp extends React.Component {
   static propTypes = {
     appName: React.PropTypes.string.isRequired
@@ -168,7 +168,7 @@ TodoApp.defaultProps = {
   appName: 'Todo App'
 };
 
-// 2. 在 ES7 中，你可以在類別中使用 static
+// 2. 在 ES7 中，你可以在類別中使用 static 宣告 defaultProps
 class TodoApp extends React.Component {
   static defaultProps = {
     appName: 'Todo App'
