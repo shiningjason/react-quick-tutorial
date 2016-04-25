@@ -76,11 +76,12 @@ render() {
 
 ![DEMO](../assets/level-06_demo.png)
 
-### 3. 修改其他的元件
+### 3. 修改其他子元件
 
 > :bowtie:：你是否體會到 props 帶來的好處呢？
+> ***props 提高了元件的重用性。***
 
-***props 提高了元件的重用性。***我們可以試著在下面幾個元件中加入 props：
+我們可以試著在其他元件中，加入 props：
 
 ###### 1. TodoHeader
 
