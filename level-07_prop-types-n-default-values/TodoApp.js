@@ -11,7 +11,7 @@ class TodoApp extends React.Component {
         <TodoHeader
           title="我的待辦清單"
           username="Jason"
-          todoCount={99}
+          todoCount="99"
         />
         <InputField placeholder="新增待辦清單" />
         <TodoList />
