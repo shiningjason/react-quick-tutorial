@@ -26,7 +26,7 @@ render() {
   const { title, completed } = this.props;
 
   // 2. 根據父元件給的 title 和 completed 渲染畫面：
-  //    好處是讓資料可以不用寫死在子元件的程式中，增加元件的重用性
+  //    好處是讓資料可以不用寫死元件程式中，增加元件的重用性
   return (
     <div>
       <input type="checkbox" checked={completed} />
