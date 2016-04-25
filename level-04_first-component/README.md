@@ -112,6 +112,7 @@ console.log(text); // 發生錯誤：Uncaught ReferenceError: text is not define
 > :bowtie:：小提醒，為了增加程式閱讀性和降低出錯率，建議你培養好習慣 - ***宣告變數盡量使用 let 取代 var，常數用 const***：）
 
 ###### 2. 參考連結
+
 1. [Let + Const | Babel](https://babeljs.io/docs/learn-es2015/#let-const)
 2. [const | MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/const)
 3. [let | MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/let)
@@ -147,6 +148,7 @@ andy.speak(); // My name is Andy Lin
 ```
 
 ###### 2. 參考連結
+
 1. [Classes | Babel](https://babeljs.io/docs/learn-es2015/#classes)
 2. [Classes | MDN](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Classes)
 
@@ -173,6 +175,7 @@ console.log(value1 + value2);
 > :bowtie:：當我剛開始看到「解構賦值」時，也覺得真的是太 cool 了；解構賦值也包括從陣列中取值，或是忽略某一個值等，詳細用法我建議你閱讀下方的參考連結囉～！
 
 ###### 2. 參考連結
+
 1. [Destructuring | Babel](https://babeljs.io/docs/learn-es2015/#destructuring)
 2. [解構賦值 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
