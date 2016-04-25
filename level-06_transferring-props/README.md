@@ -70,7 +70,7 @@ render() {
 }
 ```
 
-> :bowtie:：如果你在瀏覽器的開發者工具中，看到以下警示「*Warning: Failed form propType: You provided a 'checked' prop to a form field without an 'onChange' handler...*」；請放心，它只是提醒你還需要遞給 <input type="checkbox" /> 一些屬性，我們會在往後的關卡中解決它！
+> :bowtie:：如果你在瀏覽器的開發者工具中，看到以下警示「*Warning: Failed form propType: You provided a 'checked' prop to a form field without an 'onChange' handler...*」；請放心，它只是提醒你還需要遞一些屬性給 `<input type="checkbox" />`，我們會在往後的關卡中解決它！
 
 最後，確認瀏覽器會顯示我們要的：
 
