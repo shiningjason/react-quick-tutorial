@@ -37,6 +37,7 @@ window.App.TodoApp = TodoApp;
 
 ```html
 <body>
+  <div id="app"></div>
   <!-- 1. 初始 window.App -->
   <script>window.App = {}</script>
   <!-- 2. 引入 TodoApp.js -->
