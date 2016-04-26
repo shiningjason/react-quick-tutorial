@@ -13,7 +13,7 @@
 
 ## 教學關卡
 
-> :bowtie:：以下關卡的範例程式都已完成，但是***教材內容仍在趕工中唷，預計完成日期也標示在關卡標題後方***！ :loudspeaker::loudspeaker::loudspeaker:
+> :bowtie:：以下關卡的範例程式都已完成，但是***教材內容仍在趕工中唷（預計完成日期標示在標題後方）***！ :loudspeaker::loudspeaker::loudspeaker:
 
 ###### 章節一. 從模仿開始，完成第一個 React 應用 TodoApp
 [Level 01. 用元件思維設計應用程式](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-01_react)  
