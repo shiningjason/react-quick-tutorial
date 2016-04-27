@@ -88,8 +88,7 @@
 
 ***react.js 是 React 的核心 API，而 react-dom.js 則處理對 HTML DOM 的操作。***
 
-React 在 0.14 版時，將兩者一分為二；這讓 react.js 可以共用於 Web 和 Mobile(
-React Native) 中。
+React 在 0.14 版時，將兩者一分為二；這讓 react.js 可以共用於 Web 和 Mobile (React Native) 中。
 
 ### 3. Babel 和 browser.js 是什麼？
 
