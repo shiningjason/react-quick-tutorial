@@ -115,7 +115,7 @@ render() {
 class TodoApp extends React.Component {
   constructor(props, context) {
     super(props, context);
-    // 1. 將 todos 搬到 state 中：
+    // 4. 將 todos 搬到 state 中：
     //    放在 state 的好處是當使用 this.setState() 更新 todos 後，
     //    React 會幫你重新 render，讓使用者看到最新的畫面。
     //
@@ -128,14 +128,14 @@ class TodoApp extends React.Component {
   }
 
   render() {
-    // 2. 從 state 中取得 todos
+    // 5. 從 state 中取得 todos
     const { todos } = this.state;
     return (
       <div>
         <TodoHeader todoCount={todos.filter((todo) => !todo.completed).length} />
         <TodoList
           todos={todos}
-          // 3. 呼叫 _deleteTodo，更新 todos 狀態
+          // 6. 呼叫 _deleteTodo，更新 todos 狀態
           onDeleteTodo={
             (...args) => this.setState({
               todos: _deleteTodo(todos, ...args)
@@ -147,7 +147,7 @@ class TodoApp extends React.Component {
   }
 }
 
-// 4. 將刪除邏輯抽成一個 function
+// 7. 將刪除邏輯抽成一個 function
 const _deleteTodo = (todos, id) => {
   const idx = todos.findIndex((todo) => todo.id === id);
   if (idx !== -1) todos.splice(idx, 1);
