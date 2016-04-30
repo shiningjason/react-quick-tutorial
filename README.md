@@ -24,7 +24,7 @@
 [Level 06. 使用 props 傳遞元件參數](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-06_transferring-props)  
 [Level 07. 培養好習慣，設計防呆的 React 元件](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-07_prop-types-n-default-values)  
 [Level 08. 動態產生多個 React 元件](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-08_dynamic-children)  
-[Level 09. 管理 React 元件的內部狀態 (4/27)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-09_stateful-component)  
+[Level 09. 管理 React 元件的內部狀態](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-09_stateful-component)  
 [Level 10. 使用 React 表單元件 (4/28)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-10_forms)  
 [Level 11. 瞭解 React 元件的生命週期 (4/29)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-11_component-lifecycle)  
 
