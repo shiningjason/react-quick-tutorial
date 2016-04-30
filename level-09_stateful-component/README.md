@@ -26,8 +26,8 @@
 
 透過下面方式切換：
 
-1. 雙點擊待辦項目切換為「編輯模式」
-2. 點選 ESC 或點擊頁面其他地方切換為「瀏覽模式」
+1. 雙點擊待辦項目，可切換為「編輯模式」
+2. 按下 ESC 或點擊頁面其他地方，可切換為「瀏覽模式」
 
 ### 2. 修改 TodoItem
 
@@ -39,7 +39,7 @@ class TodoItem extends React.Component {
     // 1. 使用 class constructor (類別建構子) 初始元件狀態
     this.state = { editable: false };
 
-    // 7. 在 ES6 Component class 中，你必須手動綁定 this
+    // 7. 在 ES6 component class 中，你必須手動綁定 this
     this.toggleEditMode = this.toggleEditMode.bind(this);
   }
 
@@ -54,19 +54,19 @@ class TodoItem extends React.Component {
   }
 
   renderViewMode() {
-    // 3. 將原本渲染瀏覽模式的元素，移至這裡
+    // 3. 將原本渲染「瀏覽模式」的程式，移至這裡
     // ...
   }
 
   renderEditMode() {
-    // 4. 共用 InputField 元件
+    // 4. 「編輯模式」使用 InputField 元件
     return (
       <InputField
-        autoFocus                    // 5. 讓使用者切換到編輯模式可以立即編打
+        autoFocus                    // 5. autoFocus 讓使用者切換到編輯模式後，可以立即編打
         placeholder="編輯待辦事項"
         value={this.props.title}
-        onBlur={this.toggleEditMode} // 8. 當使用者點擊其他地方，則切換為瀏覽模式
-        onKeyDown={(e) => {          // 9. 判斷使用者若按下 ESC，則切換為瀏覽模式
+        onBlur={this.toggleEditMode} // 8. 當使用者點擊其他地方，則切換為「瀏覽模式」
+        onKeyDown={(e) => {          // 9. 當使用者按下 ESC，則切換為「瀏覽模式」
           if (e.keyCode === 27) {
             e.preventDefault();
             this.toggleEditMode();
@@ -82,7 +82,7 @@ class TodoItem extends React.Component {
 
 ```js
 /* TodoItem.js */
-// 1. 當刪除按鈕被點選，觸發上層元件傳遞的 onDelete callback
+// 1. 當刪除按鈕被點選，觸發上層元件 (TodoList) 傳遞的 onDelete callback
 renderViewMode() {
   const { onDelete } = this.props;
   return (
@@ -96,10 +96,11 @@ renderViewMode() {
 // 2. 完成 onDelete 的 propTypes or defaultProps
 
 /* TodoList.js */
-// 3. 當待辦項目被刪除，觸發上層元件傳遞的 onDeleteTodo callback：
+// 3. 當待辦項目被刪除，觸發上層元件 (TodoApp) 傳遞的 onDeleteTodo callback：
 //    callback 必須傳遞 todo 的 id，讓上層元件知道哪一筆項目需要刪除；
-//    使用 props 傳遞 callback 的好處是，可以不用在 View 元件中加入業務邏輯，
-//    View 元件的職責就是顯示 props 中的資料，和呼叫 props 中相對應的 callback
+//    使用 props 傳遞 callback 的好處是，可以不用在底層 view 元件中加入業務邏輯。
+//
+//    小筆記：讓 view 元件職責簡單，只需顯示 props 的資料，和呼叫 props 中相對應的 callback
 render() {
   const { onDeleteTodo } = this.props;
   const todoElements = todos.map((todo) => (
@@ -116,8 +117,7 @@ class TodoApp extends React.Component {
     super(props, context);
     // 1. 將 todos 搬到 state 中：
     //    放在 state 的好處是當使用 this.setState() 更新 todos 後，
-    //    React 會幫你重新 render，
-    //    讓使用者看到最新的畫面。
+    //    React 會幫你重新 render，讓使用者看到最新的畫面。
     //
     //    PS. React 的資料模型分兩種：props、state，
     //    你應該盡可能讓底層元件存取資料的方式是使用 props，
@@ -135,7 +135,7 @@ class TodoApp extends React.Component {
         <TodoHeader todoCount={todos.filter((todo) => !todo.completed).length} />
         <TodoList
           todos={todos}
-          // 3. 刪除待辦項目後，更新 todos 狀態
+          // 3. 呼叫 _deleteTodo，更新 todos 狀態
           onDeleteTodo={
             (...args) => this.setState({
               todos: _deleteTodo(todos, ...args)
