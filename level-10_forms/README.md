@@ -180,7 +180,7 @@ const _createTodo = (todos, title) => {
 
 ###### 1. 修改 InputField 和 TodoItem 元件
 
-如果你現在將 TodoItem 切換為編輯模式，我想你會看到「Warning: Failed form propType: You provided a `value` prop to a form field without an `onChange` handler...」。
+如果你現在將 TodoItem 切換為編輯模式，我想你會在 console 中看到「*Warning: Failed form propType: You provided a `value` prop to a form field without an `onChange` handler...*」。
 
 有兩種方法可以修正：
 
