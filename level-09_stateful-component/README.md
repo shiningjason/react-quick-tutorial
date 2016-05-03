@@ -137,8 +137,8 @@ class TodoApp extends React.Component {
           todos={todos}
           // 6. 呼叫 _deleteTodo，更新 todos 狀態
           onDeleteTodo={
-            (...args) => this.setState({
-              todos: _deleteTodo(todos, ...args)
+            (id) => this.setState({
+              todos: _deleteTodo(todos, id)
             })
           }
         />
@@ -251,4 +251,3 @@ class TodoApp extends React.Component {
 ## :rocket:
 
 ｜ [主頁](../) ｜ [上一關](../level-08_dynamic-children) ｜ [下一關. 使用 React 表單元件](../level-10_forms) ｜
-
