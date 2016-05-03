@@ -4,6 +4,14 @@ const {
 } = window.App;
 
 window.App.TodoActions = {
+  loadTodos() {
+    fetch('./todos.json')
+      .then((response) => response.json())
+      .then((todos) => AppDispatcher.dispatch({
+        type: ActionTypes.LOAD_TODOS_SUCCESS,
+        todos
+      }));
+  },
   createTodo(title) {
     AppDispatcher.dispatch({
       type: ActionTypes.CREATE_TODO,

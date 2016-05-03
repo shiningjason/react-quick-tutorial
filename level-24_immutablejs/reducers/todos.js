@@ -8,12 +8,6 @@ const TodoRecord = Record({
   completed: false
 });
 
-const DEFAULT_TODOS = List.of(
-  new TodoRecord({ id: 0, title: 'Item 1' }),
-  new TodoRecord({ id: 1, title: 'Item 2' }),
-  new TodoRecord({ id: 2, title: 'Item 3' })
-);
-
 const _findIdxById = (todos, id) => todos.findIndex((todo) => todo.id === id);
 
 const _createTodo = (todos, title) =>
@@ -32,8 +26,10 @@ const _toggleTodo = (todos, id, completed) =>
 const _deleteTodo = (todos, id) =>
   todos.delete(_findIdxById(todos, id));
 
-window.App.reducers.todos = (state = DEFAULT_TODOS, action) => {
+window.App.reducers.todos = (state = new List(), action) => {
   switch (action.type) {
+    case ActionTypes.LOAD_TODOS_SUCCESS:
+      return new List(action.todos).map((todo) => new TodoRecord(todo));
     case ActionTypes.CREATE_TODO:
       return _createTodo(state, action.title);
     case ActionTypes.UPDATE_TODO:

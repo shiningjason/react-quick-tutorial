@@ -1,14 +1,16 @@
+const { connect } = ReactRedux;
 const {
+  TodoActions,
   CreateTodoFieldContainer,
   TodoHeaderContainer,
   TodoListContainer
 } = window.App;
 
 class TodoApp extends React.Component {
-  constructor(props, context) {
-    super(props, context);
+  componentDidMount() {
+    this.props.loadTodos();
   }
-  
+
   render() {
     return (
       <div>
@@ -20,4 +22,6 @@ class TodoApp extends React.Component {
   }
 }
 
-window.App.TodoApp = TodoApp;
+window.App.TodoApp = connect(undefined, {
+  loadTodos: TodoActions.loadTodos
+})(TodoApp);;

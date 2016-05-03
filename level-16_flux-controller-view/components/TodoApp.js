@@ -15,6 +15,7 @@ class TodoApp extends React.Component {
   }
 
   componentDidMount() {
+    TodoActions.loadTodos();
     this._removeChangeListener = TodoStore.addChangeListener(
       () => this.setState({ todos: TodoStore.getAll() })
     );

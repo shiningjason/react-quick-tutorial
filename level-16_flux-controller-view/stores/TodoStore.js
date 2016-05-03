@@ -7,23 +7,7 @@ const CHANGE_EVENT = 'CHANGE';
 
 const _emitter = new EventEmitter();
 
-const _todos = [
-  {
-    id: 0,
-    title: 'Item 1',
-    completed: false
-  },
-  {
-    id: 1,
-    title: 'Item 2',
-    completed: false
-  },
-  {
-    id: 2,
-    title: 'Item 3',
-    completed: false
-  }
-];
+let _todos = [];
 
 const _createTodo = (todos, title) => {
   todos.push({
@@ -62,6 +46,10 @@ window.App.TodoStore = {
   },
   dispatchToken: AppDispatcher.register((action) => {
     switch (action.type) {
+      case ActionTypes.LOAD_TODOS_SUCCESS:
+        _todos = action.todos;
+        _emitter.emit(CHANGE_EVENT);
+        break;
       case ActionTypes.CREATE_TODO:
         _createTodo(_todos, action.title);
         _emitter.emit(CHANGE_EVENT);

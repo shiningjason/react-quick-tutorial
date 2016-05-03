@@ -1,14 +1,15 @@
 const {
+  TodoActions,
   CreateTodoFieldContainer,
   TodoHeaderContainer,
   TodoListContainer
 } = window.App;
 
 class TodoApp extends React.Component {
-  constructor(props, context) {
-    super(props, context);
+  componentDidMount() {
+    TodoActions.loadTodos();
   }
-  
+
   render() {
     return (
       <div>

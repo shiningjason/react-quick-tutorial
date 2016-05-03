@@ -5,24 +5,6 @@ const {
   AppDispatcher
 } = window.App;
 
-const DEFAULT_TODOS = [
-  {
-    id: 0,
-    title: 'Item 1',
-    completed: false
-  },
-  {
-    id: 1,
-    title: 'Item 2',
-    completed: false
-  },
-  {
-    id: 2,
-    title: 'Item 3',
-    completed: false
-  }
-];
-
 const _createTodo = (todos, title) => {
   return [
     ...todos,
@@ -69,11 +51,13 @@ const _deleteTodo = (todos, id) => {
 
 class TodoStore extends ReduceStore {
   getInitialState() {
-    return DEFAULT_TODOS;
+    return [];
   }
 
   reduce(state, action) {
     switch (action.type) {
+      case ActionTypes.LOAD_TODOS_SUCCESS:
+        return action.todos;
       case ActionTypes.CREATE_TODO:
         return _createTodo(state, action.title);
       case ActionTypes.UPDATE_TODO:
