@@ -26,7 +26,7 @@
 [Level 08. 動態產生多個 React 元件](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-08_dynamic-children)  
 [Level 09. 管理 React 元件的內部狀態](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-09_stateful-component)  
 [Level 10. 使用 React 表單元件](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-10_forms)  
-[Level 11. 瞭解 React 元件的生命週期 (4/29)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-11_component-lifecycle)  
+[Level 11. 瞭解 React 元件的生命週期](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-11_component-lifecycle)  
 
 ###### 章節二. 往實戰再邁向一步，完成 React + Flux 的應用
 [Level 12. 深入淺出 Flux (5/3)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-12_flux)  
