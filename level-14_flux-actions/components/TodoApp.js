@@ -42,7 +42,7 @@ class TodoApp extends React.Component {
   componentDidMount() {
     fetch('./todos.json')
       .then((response) => response.json())
-      .then((todos) => this.setState({ todos: todos }));
+      .then((todos) => this.setState({ todos }));
   }
 
   updateTodosBy(updateFn) {
