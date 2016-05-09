@@ -15,7 +15,6 @@
 
 > :bowtie:：  
 > 以下關卡的範例程式都已完成，但是***教材內容仍在趕工中唷（預計完成日期標示在標題後方）***！ :loudspeaker::loudspeaker::loudspeaker:  
->   
 > 偷偷備註一下～完成日期會再隨時調整，我只能 promise 各位「***我絕對不會富奸***」！:ok_hand:
 
 ###### 章節一. 從模仿開始，完成第一個 React 應用 TodoApp
