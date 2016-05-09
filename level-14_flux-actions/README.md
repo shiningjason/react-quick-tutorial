@@ -14,3 +14,6 @@
 ## :rocket:
 
 ｜ [主頁](../) ｜ [上一關](../level-13_flux-dispatcher) ｜ [下一關. 完成 Stores：統一管理業務邏輯和資料](../level-15_flux-stores) ｜
+
+
+![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-14_flux-actions?pixel)

@@ -44,3 +44,6 @@
 [Level 22. 修改 Actions：讓它們做更簡單的事 (5/18)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-22_redux-actions)  
 [Level 23. 使用 connect 連結 View 和 Redux 系統 (5/19)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-23_redux-connect-view)  
 [Level 24. 整合 ImmutableJS (5/20)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-24_immutablejs)  
+
+
+![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/home?pixel)

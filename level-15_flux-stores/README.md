@@ -14,3 +14,6 @@
 ## :rocket:
 
 ｜ [主頁](../) ｜ [上一關](../level-14_flux-actions) ｜ [下一關. 完成 Controller View：讓元件同步資料狀態](../level-16_flux-controller-view) ｜
+
+
+![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-15_flux-stores?pixel)

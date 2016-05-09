@@ -14,3 +14,6 @@
 ## :rocket:
 
 ｜ [主頁](../) ｜ [上一關](../level-20_redux-reducers) ｜ [下一關. 修改 Actions：讓它們做更簡單的事](../level-22_redux-actions) ｜
+
+
+![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-21_redux-store-n-provider?pixel)

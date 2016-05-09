@@ -14,3 +14,6 @@
 ## :rocket:
 
 ｜ [主頁](../) ｜ [上一關](../level-23_redux-connect-view) ｜ 完 :mortar_board: ｜
+
+
+![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-24_immutablejs?pixel)

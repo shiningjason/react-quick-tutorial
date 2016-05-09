@@ -14,3 +14,6 @@
 ## :rocket:
 
 ｜ [主頁](../) ｜ [上一關](../level-22_redux-actions) ｜ [下一關. 整合 ImmutableJS](../level-24_immutablejs) ｜
+
+
+![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-23_redux-connect-view?pixel)
