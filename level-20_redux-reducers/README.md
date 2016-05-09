@@ -8,7 +8,7 @@
 
 ![Coming Soon](http://www.pixelpalette.com.au/wp-content/uploads/2015/04/COMING-SOON.gif)
 
-> 預計完成日期：2016/5/16
+> 預計完成日期：2016/5/23
 
 
 ## :rocket:
