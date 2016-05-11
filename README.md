@@ -48,4 +48,4 @@
 [Level 24. 整合 ImmutableJS (5/27)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-24_immutablejs)  
 
 
-![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/home?pixel)
+![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/home?pixel)

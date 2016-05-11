@@ -16,4 +16,4 @@
 ｜ [主頁](../) ｜ [上一關](../level-15_flux-stores) ｜ [下一關. 引進 Container Pattern：必學的設計模式](../level-17_container-pattern) ｜
 
 
-![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-16_flux-controller-view?pixel)
+![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-16_flux-controller-view?pixel)

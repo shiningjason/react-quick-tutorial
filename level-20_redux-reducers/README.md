@@ -16,4 +16,4 @@
 ｜ [主頁](../) ｜ [上一關](../level-19_redux) ｜ [下一關. 完成 Store 和 Provider：Redux 的重要角色](../level-21_redux-store-n-provider) ｜
 
 
-![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-20_redux-reducers?pixel)
+![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-20_redux-reducers?pixel)

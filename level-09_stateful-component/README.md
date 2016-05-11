@@ -253,4 +253,4 @@ class TodoApp extends React.Component {
 ｜ [主頁](../) ｜ [上一關](../level-08_dynamic-children) ｜ [下一關. 使用 React 表單元件](../level-10_forms) ｜
 
 
-![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-09_stateful-component?pixel)
+![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-09_stateful-component?pixel)

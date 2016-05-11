@@ -16,4 +16,4 @@
 ｜ [主頁](../) ｜ [上一關](../level-21_redux-store-n-provider) ｜ [下一關. 使用 connect 連結 View 和 Redux 系統](../level-23_redux-connect-view) ｜
 
 
-![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-22_redux-actions?pixel)
+![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-22_redux-actions?pixel)

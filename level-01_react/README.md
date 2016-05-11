@@ -45,4 +45,4 @@
 ｜ [主頁](../) ｜ [下一關. 建置簡易的開發環境](../level-02_initial-project) ｜
 
 
-![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-01_react?pixel)
+![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-01_react?pixel)

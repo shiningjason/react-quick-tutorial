@@ -16,4 +16,4 @@
 ｜ [主頁](../) ｜ [上一關](../level-18_flux-utils) ｜ [下一關. 完成 Reducers：讓業務狀態更容易管理](../level-20_redux-reducers) ｜
 
 
-![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-19_redux?pixel)
+![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-19_redux?pixel)

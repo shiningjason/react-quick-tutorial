@@ -16,4 +16,4 @@
 ｜ [主頁](../) ｜ [上一關](../level-16_flux-controller-view) ｜ [下一關. 使用 Flux 提供的 Utils](../level-18_flux-utils) ｜
 
 
-![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-17_container-pattern?pixel)
+![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-17_container-pattern?pixel)

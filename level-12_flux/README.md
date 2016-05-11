@@ -16,4 +16,4 @@
 ｜ [主頁](../) ｜ [上一關](../level-11_component-lifecycle) ｜ [下一關. 完成 Dispatcher：Flux 最重要的角色](../level-13_flux-dispatcher) ｜
 
 
-![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-12_flux?pixel)
+![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-12_flux?pixel)

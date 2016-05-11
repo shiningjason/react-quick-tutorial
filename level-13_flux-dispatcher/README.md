@@ -16,4 +16,4 @@
 ｜ [主頁](../) ｜ [上一關](../level-12_flux) ｜ [下一關. 完成 Actions：集中所有應用行為](../level-14_flux-actions) ｜
 
 
-![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-13_flux-dispatcher?pixel)
+![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-13_flux-dispatcher?pixel)

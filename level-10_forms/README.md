@@ -489,4 +489,4 @@ class InputField extends React.Component {
 ｜ [主頁](../) ｜ [上一關](../level-09_stateful-component) ｜ [下一關. 瞭解 React 元件的生命週期](../level-11_component-lifecycle) ｜
 
 
-![Analytics](https://ga-beacon.appspot.com/UA-77436651-1/level-10_forms?pixel)
+![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-10_forms?pixel)
