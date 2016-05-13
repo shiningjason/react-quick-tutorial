@@ -18,7 +18,7 @@
 
 ![Flux](../assets/flux-diagram.png)
 
-上方是 Facebook 提供的 Flux 架構圖，要確認你是否已經吸收了 Flux 精髓，你可以問問自己以下問題：
+上方是 Facebook 提供的 Flux 架構圖，要確認你是否吸收了 Flux 精髓，你可以詢問自己以下幾個問題：
 
 1. Flux 是什麼，可以幫助你什麼（試著用一句話定義）
 2. Flux 主要的四個角色是誰，他們的職責是什麼
