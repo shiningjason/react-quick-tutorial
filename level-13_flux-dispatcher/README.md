@@ -6,7 +6,7 @@
 
 ## :checkered_flag: 關卡目標
 
-1. 完成主線任務：
+1. 完成主線任務：加入 facebook/flux 程式庫中的 Dispatcher
 2. 獲得新技能：
   1. [facebook/flux] 了解 Dispatcher class 的使用方法
 3. 習得心法：
@@ -97,7 +97,7 @@ dispatcher.register((action) => {
 });
 
 // 2. 在 Action Creator 中，可以使用 dispatch() 傳遞 action：
-//    Dispatcher 會將 action 廣播給所有註冊的 callback function（就是上方 register 的參數）
+//    Dispatcher 會將 action 廣播給所有註冊的 callback function（就是上方 register() 中的參數）
 const createTodoActionCreator = (title) => {
   const action = {
     type: 'CREATE_TODO',
