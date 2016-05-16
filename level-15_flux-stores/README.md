@@ -19,15 +19,15 @@
 
 ### 2. 引入 EventEmitter
 
-在 Store 中，需要提供 View 註冊資料改變監聽器(listener)的 API，我們使用現有的事件管理模組 - [EventEmitter](https://github.com/Olical/EventEmitter)，讓它替我們負責監聽事件和觸發事件。
+在 Store 中，需要提供 API 讓 View 註冊資料改變的監聽器(listener)，我們使用現有的事件管理模組 - [EventEmitter](https://github.com/Olical/EventEmitter)，讓它替我們負責監聽事件和觸發事件。
 
-這一步，我們從 [EventEmitter | cdnjs](https://cdnjs.com/libraries/EventEmitter) 中，複製連結並貼到 index.html 中。
+這一步，我們從 [[EventEmitter | cdnjs]](https://cdnjs.com/libraries/EventEmitter) 中，複製連結並貼到 index.html 中。
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/EventEmitter/5.0.0/EventEmitter.js"></script>
 ```
 
-我們大概需要以下幾個 [EventEmitter API](https://github.com/Olical/EventEmitter/blob/master/docs/api.md)：
+我們大概會使用以下幾個 [API](https://github.com/Olical/EventEmitter/blob/master/docs/api.md)：
 
 ```js
 const emitter = new EventEmitter();
