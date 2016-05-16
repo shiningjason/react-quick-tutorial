@@ -41,6 +41,8 @@ window.App.ActionTypes = {
 
 > :bowtie:：通常常數的 key/value 我們都給一樣的，你一定會覺得很麻煩，因此有一些第三方程式庫在解決這個問題，例如：[flux-constants](https://github.com/boichee/flux-constants)、[keyMirror](https://github.com/STRML/keyMirror) 等。
 
+最後在 index.html 中加入 `<script src="./constants/ActionTypes.js"></script>`！
+
 ### 3. 建立 actions/TodoActions.js
 
 根據上面五個動作，我們建立五個 Action Creator 函數，因為這五個動作都是歸屬於 Todo 的業務操作，因此我把它們放在 TodoActions 這一個檔案中：
@@ -77,6 +79,8 @@ window.App.TodoActions = {
   deleteTodo(id)            { /* 略 */ }
 };
 ```
+
+最後，記得在 index.html 中加入 ./actions/TodoActions.js 的連結！
 
 
 ## :book: 學習筆記
