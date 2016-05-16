@@ -27,7 +27,7 @@
 4. 切換待伴狀態
 5. 刪除待辦項目
 
-上述動作都必須規範在 Action 中，因此我們需要 type 來區分個別行為，所以建立五個常數：
+上述動作都***必須規範在 Action*** 中，因此我們需要 ***type*** 來區分個別行為，所以建立五個常數：
 
 ```js
 window.App.ActionTypes = {
@@ -39,7 +39,7 @@ window.App.ActionTypes = {
 };
 ```
 
-> :bowtie:：通常常數的 key/value 我們都給一樣的，你一定會覺得很麻煩，因此有一些第三方程式庫在解決這個問題，例如：[flux-constants](https://github.com/boichee/flux-constants)、[keyMirror](https://github.com/STRML/keyMirror)等。
+> :bowtie:：通常常數的 key/value 我們都給一樣的，你一定會覺得很麻煩，因此有一些第三方程式庫在解決這個問題，例如：[flux-constants](https://github.com/boichee/flux-constants)、[keyMirror](https://github.com/STRML/keyMirror) 等。
 
 ### 3. 建立 actions/TodoActions.js
 
