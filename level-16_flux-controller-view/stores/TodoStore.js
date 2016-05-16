@@ -51,19 +51,19 @@ window.App.TodoStore = {
         _emitter.emit(CHANGE_EVENT);
         break;
       case ActionTypes.CREATE_TODO:
-        _createTodo(_todos, action.title);
+        _todos = _createTodo(_todos, action.title);
         _emitter.emit(CHANGE_EVENT);
         break;
       case ActionTypes.UPDATE_TODO:
-        _updateTodo(_todos, action.id, action.title);
+        _todos = _updateTodo(_todos, action.id, action.title);
         _emitter.emit(CHANGE_EVENT);
         break;
       case ActionTypes.TOGGLE_TODO:
-        _toggleTodo(_todos, action.id, action.completed);
+        _todos = _toggleTodo(_todos, action.id, action.completed);
         _emitter.emit(CHANGE_EVENT);
         break;
       case ActionTypes.DELETE_TODO:
-        _deleteTodo(_todos, action.id);
+        _todos = _deleteTodo(_todos, action.id);
         _emitter.emit(CHANGE_EVENT);
         break;
     }

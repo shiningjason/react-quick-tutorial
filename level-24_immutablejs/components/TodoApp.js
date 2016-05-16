@@ -24,4 +24,4 @@ class TodoApp extends React.Component {
 
 window.App.TodoApp = connect(undefined, {
   loadTodos: TodoActions.loadTodos
-})(TodoApp);;
+})(TodoApp);
