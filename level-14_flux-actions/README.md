@@ -43,7 +43,7 @@ window.App.ActionTypes = {
 
 ### 3. 建立 actions/TodoActions.js
 
-根據上面五個動作，我們建立五個 Action Creator 函數，因為這五個動作都是歸屬於 Todo 的業務操作，因此我把它們放在 TodoAction 這一個檔案中：
+根據上面五個動作，我們建立五個 Action Creator 函數，因為這五個動作都是歸屬於 Todo 的業務操作，因此我把它們放在 TodoActions 這一個檔案中：
 
 ```js
 const {
