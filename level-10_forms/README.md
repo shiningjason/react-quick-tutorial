@@ -199,7 +199,6 @@ renderEditMode() {
       //    如果只給予 value，不給予 onChange callback，
       //    使用者輸入的資料將不會被更新，因此改為 defaultValue。
       defaultValue={title}
-      onChange={() => console.log(123)}
       onBlur={this.toggleEditMode}
       onKeyDown={(e) => {
         if (e.keyCode === 27) {
@@ -275,7 +274,6 @@ renderEditMode() {
       autoFocus
       placeholder="編輯待辦事項"
       value={title}
-      onChange={() => console.log(123)}
       onBlur={this.toggleEditMode}
       onKeyDown={(e) => {
         if (e.keyCode === 27) {
