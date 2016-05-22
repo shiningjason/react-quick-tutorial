@@ -254,12 +254,12 @@ class TodoApp extends Component {
 
 ###### b. 你發現差別了嗎？
 
-原本的 TodoApp 包含了 ***與 Store 及 Action 溝通的邏輯*** 和 ***UI 排版的邏輯***；當我們加入 TodoAppContainer 後，我們讓它負責與 Store 及 Action 溝通，並透過 props 將資料及事件處理函數遞給 TodoApp，因此 TodoApp 只需要顧慮 UI 的設計排版，和使用者操作時該觸發哪些事件即可。
+原本的 TodoApp 包含了「***與 Store 及 Action 溝通的邏輯***」和「***UI 排版的邏輯***」；當我們加入 TodoAppContainer 後，我們讓它負責與 Store 及 Action 溝通，並透過 props 將資料及事件處理函數遞給 TodoApp，因此 TodoApp 只需要顧慮 UI 的設計排版，和使用者操作時該觸發哪些事件即可。
 
 ###### c. 好處是什麼？我們為什麼要這樣做？
 
-1. 這讓 TodoApp 元件只負責一件事情，就是 UI；讓 TodoAppContainer 分擔其中一件事情，也就是與資料的互動（改變資料、取得資料），這讓我們的應用符合「關注點分離(Separation of concerns)」及「單一職責(Single Responsibility)」原則。好處是***幫助你一次只關注一件事情，可以更有條理的維護專案***！
-2. 舉些情境來說：如果往後你將從 Flux 替換為 [Redux](https://github.com/reactjs/redux) 或 [Relay](https://facebook.github.io/relay/)，也就是與資料互動的方式，你只需要替換 TodoAppContainer 中的邏輯，而不用擔心是否會影響 TodoApp 的排版邏輯；如果你是要改變 UI 排版，你也只需要打開 TodoApp 這支程式，不用顧慮資料背後的運作原理。
+1. 這讓 TodoApp 元件只需要負責一件事情，就是 UI；讓 TodoAppContainer 分擔其中一件事情，也就是與資料的互動（改變資料、取得資料），這讓我們的應用符合「關注點分離 (Separation of concerns)」及「單一職責 (Single Responsibility)」原則。好處是***幫助你一次只關注一件事情，可以更有條理的維護專案***！
+2. 舉個情境來說：如果往後你將從 Flux 替換為 [Redux](https://github.com/reactjs/redux) 或 [Relay](https://facebook.github.io/relay/)，也就是與資料互動的方式，你只需要替換 TodoAppContainer 中的邏輯，而不用擔心是否會影響 TodoApp 的排版邏輯；如果你是要改變 UI 排版，你也只需要打開 TodoApp 這支程式，不用顧慮資料背後的運作原理。
 
 ###### d. 使用時機
 
