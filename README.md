@@ -36,7 +36,7 @@
 [Level 14. 完成 Actions：集中所有應用行為](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-14_flux-actions)  
 [Level 15. 完成 Stores：統一管理業務邏輯和資料](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-15_flux-stores)  
 [Level 16. 完成 Controller View：讓元件同步資料狀態](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-16_flux-controller-view)  
-[Level 17. 引進 Container Pattern：必學的設計模式 (5/17)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-17_container-pattern)  
+[Level 17. 引進 Container Pattern：必學的設計模式](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-17_container-pattern)  
 [Level 18. 使用 Flux 提供的 Utils (5/18)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-18_flux-utils)  
 
 ###### 章節三. 完成業界最夯的 React + Redux 的應用
