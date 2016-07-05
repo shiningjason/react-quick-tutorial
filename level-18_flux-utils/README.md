@@ -40,7 +40,7 @@
 
 因此官方提供三個 Utility classes ([Store](https://facebook.github.io/flux/docs/flux-utils.html#store), [ReduceStore](https://facebook.github.io/flux/docs/flux-utils.html#reducestore-t), [MapStore](https://facebook.github.io/flux/docs/flux-utils.html#mapstore-k-v)) 幫助你可以不用每刻一支業務資料的 Store 就必須做上面那些事情。
 
-在這次的改寫中，我們使用 ReduceStore，它幫你實作了原本第 2 ～ 5 項的工作，你只需要專注在***將舊狀態根據 action 改成新狀態***這個邏輯上即可：
+在這次的改寫中，我們使用 ReduceStore，它幫你實作了原本第 2 ～ 5 項的工作，你只需要專注在「***將舊狀態根據 action 改成新狀態***」這個邏輯上即可：
 
 ```js
 const { ReduceStore } = FluxUtils;
