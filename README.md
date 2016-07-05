@@ -40,12 +40,12 @@
 [Level 18. 使用 Flux 提供的 Utils](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-18_flux-utils)  
 
 ###### 章節三. 完成業界最夯的 React + Redux 的應用
-[Level 19. 深入淺出 Redux (5/20)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-19_redux)  
-[Level 20. 完成 Reducers：讓業務狀態更容易管理 (5/23)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-20_redux-reducers)  
-[Level 21. 完成 Store 和 Provider：Redux 的重要角色 (5/24)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-21_redux-store-n-provider)  
-[Level 22. 修改 Actions：讓它們做更簡單的事 (5/25)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-22_redux-actions)  
-[Level 23. 使用 connect 連結 View 和 Redux 系統 (5/26)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-23_redux-connect-view)  
-[Level 24. 整合 ImmutableJS (5/27)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-24_immutablejs)  
+[Level 19. 深入淺出 Redux](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-19_redux)  
+[Level 20. 完成 Reducers：讓業務狀態更容易管理 (7/7)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-20_redux-reducers)  
+[Level 21. 完成 Store 和 Provider：Redux 的重要角色 (7/8)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-21_redux-store-n-provider)  
+[Level 22. 修改 Actions：讓它們做更簡單的事 (7/9)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-22_redux-actions)  
+[Level 23. 使用 connect 連結 View 和 Redux 系統 (7/10)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-23_redux-connect-view)  
+[Level 24. 整合 ImmutableJS (7/11)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-24_immutablejs)  
 
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/home?pixel)
