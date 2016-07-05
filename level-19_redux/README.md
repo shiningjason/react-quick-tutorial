@@ -6,9 +6,42 @@
 
 ## :checkered_flag: 關卡目標
 
-![Coming Soon](http://www.pixelpalette.com.au/wp-content/uploads/2015/04/COMING-SOON.gif)
+1. 習得心法：
+  1. 理解 Redux 是什麼，如何用一句話定義 Redux
+  2. 清楚 Redux 和 Flux 的差別
+  3. 認識 Redux 的運作流程
 
-> 預計完成日期：2016/5/20
+
+## :triangular_flag_on_post: 打通 Redux 的任督二脈
+
+> :neckbeard:：少年，我看你天資聰穎，是萬中選一的前端人，我這有一篇...[祕笈](https://medium.com/p/7b08403c4957)，幫你深入淺出 Redux 的武功心法，你斟酌看看 :lollipop:
+
+![Redux](../assets/redux-diagram.png)
+
+上方是 Redux 架構圖，要確認你是否吸收了 Redux 精髓，你可以詢問自己以下幾個問題：
+
+1. ***Redux 是什麼，可以幫助你什麼（試著用一句話定義）***
+2. ***Redux 和 Flux 的差別是什麼***
+3. ***看著圖，簡述 Redux 的運作流程***
+
+如果你認為自己的回答還有地方卡卡的，可以
+
+1. 再讀一次[祕笈](https://medium.com/p/7b08403c4957)
+2. 閱讀下方其他大神的見解
+3. 直接進入下一關，從 code 學習
+
+最後，再次回答上面的問題，驗證所學：）
+
+> :bowtie:：Good Luck! :four_leaf_clover: 也非常歡迎你開 issue 直接詢問我 ^ ^
+
+###### 參考連結
+
+- [An Introduction To Redux](https://www.smashingmagazine.com/2016/06/an-introduction-to-redux/)
+- [A Cartoon Intro To Redux](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6)
+- [Redux 初探](https://www.facebook.com/notes/%E9%99%B8%E6%8C%AF%E6%81%A9/redux%E5%88%9D%E6%8E%A2/1025850617451561)
+- [Dan Abramov 解釋 Predictable State Container](https://hashnode.com/post/how-do-you-explain-the-term-predictable-state-container-in-simple-words-ciizdac5300wege53dogz8aqk)
+- [Dan Abramov’s React Europe 2015 talk](https://www.youtube.com/watch?v=xsSnOQynTHs)
+- [Dan Abramov’s React Europe 2016 talk](https://www.youtube.com/watch?v=uvAXVMwHJXU)
 
 
 ## :rocket:
