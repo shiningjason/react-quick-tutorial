@@ -86,7 +86,7 @@ Reducer 是一個實作狀態改變的函數；當輸入參數一樣時，輸出
 Reducer 只做一件事，根據 action 物件和狀態，回傳新狀態：
 
 ```js
-(state, action) => state'
+(state, action) => newState
 ```
 
 ### 2. [Redux] 組織多個業務狀態的 reducers
@@ -104,9 +104,9 @@ const state = {
 如果我們把每一個業務狀態都交由一個 reducer 去處理：
 
 ```js
-const moviesReducer = (action, movies) => movies'';
-const musicsReducer = (action, musics) => musics'';
-const usersReducer = (action, users) => users'';
+const moviesReducer = (action, movies) => newMovies;
+const musicsReducer = (action, musics) => newMusics;
+const usersReducer = (action, users) => newUsers;
 ```
 
 我們知道 Redux 因為只有一個狀態，所以每次 Store 接收 action 只會調用一個 reducer，那麼要如何讓該 reducer 分別調用不同業務 reducer 來更新資料呢？
