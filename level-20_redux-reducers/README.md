@@ -19,7 +19,7 @@
 
 ### 2. 建立 reducers/index.js
 
-因為 Store 只接收一個 reducer 函數，而我們會將業務拆分 reducers（見學習筆記 2），所以我們必須先把這些業務 reducers 根據狀態的 key 整併為一個物件：
+因為 Store 只接收一個 reducer 函數，而我們會將業務拆分 reducers，所以我們必須先把這些 reducers 根據狀態的 key 整併為一個物件（見學習筆記 2）：
 
 ```js
 // 1. Store 只管理一個狀態
@@ -27,7 +27,7 @@ const state = {
   todos: ...
 };
 
-// 2. 將所有業務 reducers 整併為一個物件
+// 2. 將所有業務 reducers 根據狀態的 key 整併為一個物件
 const reducers = {
   todos: todosReducer
 };
@@ -36,7 +36,7 @@ const reducers = {
 const reducer = combineReducers(reducers);
 ```
 
-所以，在 reducers/index.js 中：
+所以，在 reducers/index.js 中只需要：
 
 ```js
 window.App.reducers = {};
@@ -104,9 +104,9 @@ const state = {
 如果我們把每一個業務狀態都交由一個 reducer 去處理：
 
 ```js
-const moviesReducer = (action, movies) => movies';
-const musicsReducer = (action, musics) => musics';
-const usersReducer = (action, users) => users';
+const moviesReducer = (action, movies) => movies''';
+const musicsReducer = (action, musics) => musics''';
+const usersReducer = (action, users) => users''';
 ```
 
 我們知道 Redux 因為只有一個狀態，所以每次 Store 接收 action 只會調用一個 reducer，那麼要如何讓該 reducer 分別調用不同業務 reducer 來更新資料呢？
@@ -125,7 +125,7 @@ const reducer = combineReducers(reducers);
 
 ###### 延伸學習：combineReducers 做了什麼？
 
-```
+```js
 const combineReducers = (reducers) => {
   return (state = {}, action) => {
     return Object
