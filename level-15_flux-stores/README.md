@@ -115,7 +115,7 @@ window.App.TodoStore = {
 
 ###### a. 還記得 Store 是什麼嗎？
 
-Action 存放資料和業務邏輯，並且只提供 getter API 讓人取得資料。
+Store 存放資料和業務邏輯，並且只提供 getter API 讓人取得資料。
 
 ###### b. 還記得 Store 的職責是什麼嗎？
 
