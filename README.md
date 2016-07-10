@@ -42,7 +42,7 @@
 ###### 章節三. 完成業界最夯的 React + Redux 的應用
 [Level 19. 深入淺出 Redux](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-19_redux)  
 [Level 20. 完成 Reducers：讓業務狀態更容易管理](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-20_redux-reducers)  
-[Level 21. 完成 Store：Redux 的重要角色 (7/8)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-21_redux-store)  
+[Level 21. 完成 Store：Redux 的重要角色](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-21_redux-store)  
 [Level 22. 修改 Actions：讓它們做更簡單的事 (7/9)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-22_redux-actions)  
 [Level 23. 使用 connect 連結 View 和 Redux 系統 (7/10)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-23_redux-connect-view)  
 [Level 24. 整合 ImmutableJS (7/11)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-24_immutablejs)  
