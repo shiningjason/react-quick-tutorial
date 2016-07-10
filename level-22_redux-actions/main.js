@@ -1,5 +1,4 @@
 const { createStore, combineReducers, applyMiddleware } = Redux;
-const { Provider } = ReactRedux;
 const { TodoApp, reducers } = window.App;
 
 const thunkMiddleware = ({ dispatch, getState }) => {
@@ -18,8 +17,6 @@ const store = createStore(
 );
 
 ReactDOM.render(
-  <Provider store={store}>
-    <TodoApp />
-  </Provider>,
+  <TodoApp />,
   document.getElementById('app')
 );
