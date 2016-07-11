@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>TodoApp</title>
+</head>
+<body>
+  <div id="app"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flux/2.1.1/Flux.js"></script>
+  <script src="https://cdn.rawgit.com/facebook/flux/master/dist/FluxUtils.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.4.0/redux.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/EventEmitter/4.3.0/EventEmitter.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.js"></script>
+  <script>window.App = {};</script>
+  <script type="text/babel" src="./dispatcher/AppDispatcher.js"></script>
+  <script type="text/babel" src="./constants/ActionTypes.js"></script>
+  <script type="text/babel" src="./actions/TodoActions.js"></script>
+  <script type="text/babel" src="./stores/TodoStore.js"></script>
+  <script type="text/babel" src="./reducers/index.js"></script>
+  <script type="text/babel" src="./reducers/todos.js"></script>
+  <script type="text/babel" src="./components/InputField.js"></script>
+  <script type="text/babel" src="./components/CreateTodoFieldContainer.js"></script>
+  <script type="text/babel" src="./components/TodoHeader.js"></script>
+  <script type="text/babel" src="./components/TodoHeaderContainer.js"></script>
+  <script type="text/babel" src="./components/TodoItem.js"></script>
+  <script type="text/babel" src="./components/TodoList.js"></script>
+  <script type="text/babel" src="./components/TodoListContainer.js"></script>
+  <script type="text/babel" src="./components/TodoApp.js"></script>
+  <script type="text/babel" src="./main.js"></script>
+</body>
+</html>
