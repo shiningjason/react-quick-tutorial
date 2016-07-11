@@ -21,7 +21,7 @@
 
 ### 2. 引入 Redux
 
-從 cdnjs 中，複製 [Redux](https://cdnjs.com/libraries/flux) 最新版本的連結，並貼到 index.html 中。
+從 cdnjs 中，複製 [Redux](https://cdnjs.com/libraries/redux) 最新版本的連結，並貼到 index.html 中。
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.4.0/redux.js"></script>
