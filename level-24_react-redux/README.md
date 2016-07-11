@@ -1,4 +1,4 @@
-# Level 24. 使用 connect 連結 View 和 Redux 系統
+# Level 24. 讓 React 應用連結 Redux 系統
 
 歡迎來到「24 小時，React 快速入門」系列教學 :mortar_board: Level 24 ～！
 > :bowtie:：Wish you have a happy learning!
@@ -16,4 +16,4 @@
 ｜ [主頁](../) ｜ [上一關](../level-23_redux-middlewares) ｜ [下一關. 整合 ImmutableJS](../level-25_immutablejs) ｜
 
 
-![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-24_redux-connect-view?pixel)
+![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-24_react-redux?pixel)
