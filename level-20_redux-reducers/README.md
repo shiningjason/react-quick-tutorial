@@ -1,4 +1,4 @@
-# Level 20. 完成 Reducers：讓業務狀態更容易管理
+# Level 20. 完成 Reducers：讓狀態的改變可預測化
 
 歡迎來到「24 小時，React 快速入門」系列教學 :mortar_board: Level 20 ～！
 > :bowtie:：Wish you have a happy learning!
