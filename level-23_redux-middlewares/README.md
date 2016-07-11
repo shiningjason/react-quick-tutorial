@@ -1,6 +1,6 @@
 # Level 23. 加入 Middlewares：動態擴充 dispatch 行為
 
-歡迎來到「24 小時，React 快速入門」系列教學 :mortar_board: Level 22 ～！
+歡迎來到「24 小時，React 快速入門」系列教學 :mortar_board: Level 23 ～！
 > :bowtie:：Wish you have a happy learning!
 
 

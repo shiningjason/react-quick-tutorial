@@ -1,6 +1,6 @@
 # Level 24. 使用 connect 連結 View 和 Redux 系統
 
-歡迎來到「24 小時，React 快速入門」系列教學 :mortar_board: Level 23 ～！
+歡迎來到「24 小時，React 快速入門」系列教學 :mortar_board: Level 24 ～！
 > :bowtie:：Wish you have a happy learning!
 
 

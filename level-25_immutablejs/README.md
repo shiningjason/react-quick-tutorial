@@ -1,6 +1,6 @@
 # Level 25. 整合 ImmutableJS
 
-歡迎來到「24 小時，React 快速入門」系列教學 :mortar_board: Level 24 ～！
+歡迎來到「24 小時，React 快速入門」系列教學 :mortar_board: Level 25 ～！
 > :bowtie:：Wish you have a happy learning!
 
 
