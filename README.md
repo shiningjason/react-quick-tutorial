@@ -46,7 +46,7 @@
 [Level 22. 修改 Actions：讓它們做更簡單的事](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-22_redux-actions)  
 [Level 23. 加入 Middlewares：動態擴充 dispatch 行為](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-23_redux-middlewares)  
 [Level 24. 讓 React 應用連結 Redux 系統](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-24_react-redux)  
-[Level 25. 整合 ImmutableJS (7/11)](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-25_immutablejs)  
+[Level 25. 整合 ImmutableJS](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-25_immutablejs)  
 
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/home?pixel)
