@@ -14,9 +14,7 @@
 
 ## :triangular_flag_on_post: 主線任務
 
-### 1. 了解任務目標
-
-### 2. 引入 react-redux
+### 1. 引入 react-redux
 
 從 cdnjs 中，複製 [react-redux](https://cdnjs.com/libraries/react-redux) 最新版本的連結，並貼到 index.html 中。
 
@@ -24,7 +22,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.4.5/react-redux.js"></script>
 ```
 
-### 3. 使用 Provider 元件
+### 2. 使用 Provider 元件
 
 react-redux 提供 Provider 元件，讓 TodoApp 及其子元件可以連接 Store：
 
@@ -44,7 +42,7 @@ ReactDOM.render(
 );
 ```
 
-### 4. 使用 connect()
+### 3. 使用 connect()
 
 react-redux 提供 connect()，讓 Container 元件可以從 Redux 的狀態容器取得資料，並讓元件可以調用 dispatch 將 action 傳遞到 Store 中；所以，我們修改所有 Container 元件：
 
@@ -139,7 +137,7 @@ window.App.TodoListContainer = connect(
 )(TodoListContainer);
 ```
 
-### 5. 重構程式
+### 4. 重構程式
 
 將 Flux 的 code 刪除：
 
