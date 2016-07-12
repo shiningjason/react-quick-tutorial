@@ -13,10 +13,6 @@
 
 ## 教學關卡
 
-> :bowtie:：  
-> 以下關卡的範例程式都已完成，但是***教材內容仍在趕工中唷（預計完成日期標示在標題後方）***！ :loudspeaker::loudspeaker::loudspeaker:  
-> 偷偷備註一下～完成日期會再隨時調整，我只能 promise 各位「***我絕對不會富奸***」！:ok_hand:
-
 ###### 章節一. 從模仿開始，完成第一個 React 應用 TodoApp
 [Level 01. 用元件思維設計應用程式](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-01_react)  
 [Level 02. 建置簡易的開發環境](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-02_initial-project)  
