@@ -73,7 +73,6 @@ window.App.reducers.todos = (state = new List(), action) => {
 - [ImmutableJS](https://facebook.github.io/immutable-js)
 
 
-
 ## :rocket:
 
 ｜ [主頁](../) ｜ [上一關](../level-24_react-redux) ｜ 完 :mortar_board: ｜
