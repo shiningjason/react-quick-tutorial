@@ -49,4 +49,9 @@
 [Level 25. 整合 ImmutableJS](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-25_immutablejs)  
 
 
+## :rocket: 開始冒險吧 :flashlight:
+
+｜ [Level 01. 用元件思維設計應用程式](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-01_react) ｜
+
+
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/home?pixel)
