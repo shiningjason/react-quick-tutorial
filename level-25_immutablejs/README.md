@@ -75,7 +75,7 @@ window.App.reducers.todos = (state = new List(), action) => {
 
 ## :rocket:
 
-｜ [主頁](../../) ｜ [上一關](../level-24_react-redux) ｜ 完 :mortar_board: ｜
+｜ [主頁](../../../) ｜ [上一關](../level-24_react-redux) ｜ 完 :mortar_board: ｜
 
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-25_immutablejs?pixel)
