@@ -197,7 +197,7 @@ window.App.TodoListContainer = Container.create(TodoListContainer);
 
 ## :rocket:
 
-｜ [主頁](../) ｜ [上一關](../level-17_container-pattern) ｜ [下一關. 深入淺出 Redux](../level-19_redux) ｜
+｜ [主頁](../../) ｜ [上一關](../level-17_container-pattern) ｜ [下一關. 深入淺出 Redux](../level-19_redux) ｜
 
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-18_flux-utils?pixel)

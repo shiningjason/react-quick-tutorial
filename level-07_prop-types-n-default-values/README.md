@@ -202,7 +202,7 @@ const TodoApp = React.createClass({
 
 ## :rocket:
 
-｜ [主頁](../) ｜ [上一關](../level-06_transferring-props) ｜ [下一關. 動態產生多個 React 元件](../level-08_dynamic-children) ｜
+｜ [主頁](../../) ｜ [上一關](../level-06_transferring-props) ｜ [下一關. 動態產生多個 React 元件](../level-08_dynamic-children) ｜
 
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-07_prop-types-n-default-values?pixel)

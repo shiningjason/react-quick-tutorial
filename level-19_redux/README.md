@@ -46,7 +46,7 @@
 
 ## :rocket:
 
-｜ [主頁](../) ｜ [上一關](../level-18_flux-utils) ｜ [下一關. 完成 Reducers：讓狀態的改變可預測化](../level-20_redux-reducers) ｜
+｜ [主頁](../../) ｜ [上一關](../level-18_flux-utils) ｜ [下一關. 完成 Reducers：讓狀態的改變可預測化](../level-20_redux-reducers) ｜
 
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-19_redux?pixel)

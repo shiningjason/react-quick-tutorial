@@ -198,7 +198,7 @@ const store = createStore(
 
 ## :rocket:
 
-｜ [主頁](../) ｜ [上一關](../level-22_redux-actions) ｜ [下一關. 讓 React 應用連結 Redux 系統](../level-24_react-redux) ｜
+｜ [主頁](../../) ｜ [上一關](../level-22_redux-actions) ｜ [下一關. 讓 React 應用連結 Redux 系統](../level-24_react-redux) ｜
 
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-23_redux-middlewares?pixel)

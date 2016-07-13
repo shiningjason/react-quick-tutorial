@@ -93,7 +93,7 @@ const loginActionCreator = (username, password) => {
 
 ## :rocket:
 
-｜ [主頁](../) ｜ [上一關](../level-21_redux-store) ｜ [下一關. 加入 Middlewares：動態擴充 dispatch 行為](../level-23_redux-middlewares) ｜
+｜ [主頁](../../) ｜ [上一關](../level-21_redux-store) ｜ [下一關. 加入 Middlewares：動態擴充 dispatch 行為](../level-23_redux-middlewares) ｜
 
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-22_redux-actions?pixel)
