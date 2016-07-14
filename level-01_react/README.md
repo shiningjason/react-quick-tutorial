@@ -42,8 +42,9 @@
 
 ## :rocket:
 
-｜ [主頁](../../../) ｜ [下一關. 建置簡易的開發環境](../level-02_initial-project) ｜  
-｜ :raising_hand: [我有問題！](https://github.com/shiningjason1989/react-quick-tutorial/issues/new) ｜
+｜ [主頁](../../../) ｜ [下一關. 建置簡易的開發環境](../level-02_initial-project) ｜
+
+｜ :raising_hand: [我要提問](https://github.com/shiningjason1989/react-quick-tutorial/issues/new) ｜
 
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-01_react?pixel)
