@@ -210,5 +210,7 @@ const TodoApp = function() {
 
 ｜ [主頁](../../../) ｜ [上一關](../level-03_hello-react) ｜ [下一關. 組合多個 React 元件](../level-05_component-composition) ｜
 
+｜ :raising_hand: [我要提問](https://github.com/shiningjason1989/react-quick-tutorial/issues/new) ｜
+
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-04_first-component?pixel)

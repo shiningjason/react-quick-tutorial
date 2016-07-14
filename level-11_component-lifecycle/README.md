@@ -258,5 +258,7 @@ fetch(url, options)           // 使用 fetch 調用 AJAX 回傳 promise 物件
 
 ｜ [主頁](../../../) ｜ [上一關](../level-10_forms) ｜ [下一關. 深入淺出 Flux](../level-12_flux) ｜
 
+｜ :raising_hand: [我要提問](https://github.com/shiningjason1989/react-quick-tutorial/issues/new) ｜
+
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-11_component-lifecycle?pixel)

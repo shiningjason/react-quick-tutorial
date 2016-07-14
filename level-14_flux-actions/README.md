@@ -127,5 +127,7 @@ const loginActionCreator = (username, password) => {
 
 ｜ [主頁](../../../) ｜ [上一關](../level-13_flux-dispatcher) ｜ [下一關. 完成 Stores：統一管理業務邏輯和資料](../level-15_flux-stores) ｜
 
+｜ :raising_hand: [我要提問](https://github.com/shiningjason1989/react-quick-tutorial/issues/new) ｜
+
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-14_flux-actions?pixel)

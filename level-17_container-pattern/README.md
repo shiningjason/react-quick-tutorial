@@ -325,5 +325,7 @@ Container components 讓你可以不用將業務資料使用 props 一路往下�
 
 ｜ [主頁](../../../) ｜ [上一關](../level-16_flux-controller-view) ｜ [下一關. 使用 Flux 提供的 Utils](../level-18_flux-utils) ｜
 
+｜ :raising_hand: [我要提問](https://github.com/shiningjason1989/react-quick-tutorial/issues/new) ｜
+
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-17_container-pattern?pixel)

@@ -145,5 +145,7 @@ const combineReducers = (reducers) => {
 
 ｜ [主頁](../../../) ｜ [上一關](../level-19_redux) ｜ [下一關. 完成 Store：Redux 的重要角色](../level-21_redux-store) ｜
 
+｜ :raising_hand: [我要提問](https://github.com/shiningjason1989/react-quick-tutorial/issues/new) ｜
+
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-20_redux-reducers?pixel)

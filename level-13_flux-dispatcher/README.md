@@ -120,5 +120,7 @@ const createTodoActionCreator = (title) => {
 
 ｜ [主頁](../../../) ｜ [上一關](../level-12_flux) ｜ [下一關. 完成 Actions：集中所有應用行為](../level-14_flux-actions) ｜
 
+｜ :raising_hand: [我要提問](https://github.com/shiningjason1989/react-quick-tutorial/issues/new) ｜
+
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-13_flux-dispatcher?pixel)

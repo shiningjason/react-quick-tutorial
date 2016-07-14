@@ -133,5 +133,7 @@ Store 存放資料和業務邏輯，並且只提供 getter API 讓人取得資�
 
 ｜ [主頁](../../../) ｜ [上一關](../level-14_flux-actions) ｜ [下一關. 完成 Controller View：讓元件同步資料狀態](../level-16_flux-controller-view) ｜
 
+｜ :raising_hand: [我要提問](https://github.com/shiningjason1989/react-quick-tutorial/issues/new) ｜
+
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-15_flux-stores?pixel)

@@ -101,5 +101,7 @@ browser.js 是 [Babel](https://babeljs.io) 的程式庫，而 Babel 是一個 JS
 
 ｜ [主頁](../../../) ｜ [上一關](../level-01_react) ｜ [下一關. 使用 JSX 印出 hello, world](../level-03_hello-react) ｜
 
+｜ :raising_hand: [我要提問](https://github.com/shiningjason1989/react-quick-tutorial/issues/new) ｜
+
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-02_initial-project?pixel)

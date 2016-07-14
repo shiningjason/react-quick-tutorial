@@ -133,5 +133,7 @@ render() {
 
 ｜ [主頁](../../../) ｜ [上一關](../level-04_first-component) ｜ [下一關. 使用 props 傳遞元件參數](../level-06_transferring-props) ｜
 
+｜ :raising_hand: [我要提問](https://github.com/shiningjason1989/react-quick-tutorial/issues/new) ｜
+
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-05_component-composition?pixel)

@@ -77,5 +77,7 @@ window.App.reducers.todos = (state = new List(), action) => {
 
 ｜ [主頁](../../../) ｜ [上一關](../level-24_react-redux) ｜ 完 :mortar_board: ｜
 
+｜ :raising_hand: [我要提問](https://github.com/shiningjason1989/react-quick-tutorial/issues/new) ｜
+
 
 ![Analytics](https://shining-ga-beacon.appspot.com/UA-77436651-1/level-25_immutablejs?pixel)
