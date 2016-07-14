@@ -48,7 +48,7 @@
 [Level 24. 讓 React 應用連結 Redux 系統](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-24_react-redux)  
 [Level 25. 整合 ImmutableJS](https://github.com/shiningjason1989/react-quick-tutorial/tree/master/level-25_immutablejs)  
 
-#### 延伸學習
+#### 延伸章節
 
 [使用 Webpack 建置 React 應用](https://github.com/shiningjason1989/react-build-systems-tutorial/tree/master/2_webpack)  
 
