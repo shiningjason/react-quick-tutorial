@@ -75,7 +75,7 @@ var app = <div>{text}</div>;
 var children = [
   <span>hello</span>,
   <span>, </span>,
-  <span>world<span>
+  <span>world</span>
 ];
 var app = <div>{children}</div>;
 
