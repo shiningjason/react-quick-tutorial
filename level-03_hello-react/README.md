@@ -74,7 +74,7 @@ var app = <div>{text}</div>;
 // 3. JSX 讓你可以在類 HTML 中，取得 JS 陣列值
 var children = [
   <span>hello</span>,
-  <span>, <span>,
+  <span>, </span>,
   <span>world<span>
 ];
 var app = <div>{children}</div>;
